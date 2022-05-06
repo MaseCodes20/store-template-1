@@ -1,0 +1,123 @@
+[
+  {
+    "brand": "Puma",
+    "name": "La Liga 1 Adrenalina FQP Ball",
+    "description": "FIFA Quality certified to guarantee on-the-pitch performance, the La Liga 1 Adrenalina FQP Ball is a pro-level PUMA ball that's suitable for everyday play. High-frequency moulded for excellent shape, durability and reduced water absorption, with a rubber bladder that features PUMA Air Lock technology for enhanced air retention and a 1.2mm 3D textured surface for improved aerodynamics, it's ready for intense all-day action.",
+    "specifications": [
+      "High-frequency moulding for excellent shape, durability and reduced water absorption",
+      "Unique eight-panel configuration",
+      "3D textured 1.2mm PU surface enhances aerodynamics",
+      "Rubber bladder with PUMA Air Lock valve for enhanced air retention",
+      "FIFA Quality certified guarantees an excellent level of performance"
+    ],
+    "imageURL": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/083652/01/fnd/PNA/fmt/png",
+    "id": "08365201",
+    "price": 140
+  },
+  {
+    "brand": "Puma",
+    "name": "ProCat Geomax Ball",
+    "description": "Take your game to new levels with our ProCat Geomax Soccer Ball. A classic structure offers premium grip, touch and flight so you can dominate the field.",
+    "specifications": [],
+    "imageURL": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/856648/01/fnd/PNA/fmt/png",
+    "id": "85664801",
+    "price": 25
+  },
+  {
+    "brand": "Puma",
+    "name": "Icon Ball",
+    "description": "PUMA presents a collection of vibrant, graphic balls that bring high visibility to your game – whether you're training on a pitch or striking up an impromptu match in the park, playground or street. Bright contrast colours and an unmissable PUMA Cat Logo on the front make this 12-panel football a stand-out design.",
+    "specifications": [
+      "12-Panel construction",
+      "Machine stitching",
+      "Shiny TPU",
+      "Textile lining"
+    ],
+    "imageURL": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/083628/03/fnd/PNA/fmt/png",
+    "id": "08362803",
+    "price": 17
+  },
+  {
+    "brand": "Nike",
+    "name": "Premier League Flight Third Ball",
+    "description": "Honed over 8 years and 1,700 hours of testing, the Premier League Flight Third Soccer Ball is a revolution in consistent flight. Molded grooves and a grippy texture help reduce unexpected movement through the air, so you can put the ball exactly where you want it.",
+    "specifications": [
+      "Nike Aerowsculpt technology uses molded grooves to disrupt airflow across the ball for less drag and more stable flight.",
+      "All Conditions Control (ACC) finish",
+      "3D-printed ink helps fine-tune ball flight",
+      "4 fused panels create a larger sweet spot on the ball"
+    ],
+    "imageURL": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/e3c4ea1d-4af2-43a9-974d-1d8545b275fb/premier-league-flight-third-soccer-ball-p68n03.png",
+    "id": "DH7409100",
+    "price": 160
+  },
+  {
+    "brand": "Nike",
+    "name": "NFHS Club Elite Team Ball",
+    "description": "The NFHS Club Elite Team Soccer Ball is ready to fly into the back of the net. A textured casing with stabilizing grooves gives you consistent touch when passing, shooting and dribbling.",
+    "specifications": [
+      "The NFHS Club Elite Team Soccer Ball is ready to fly into the back of the net. A textured casing with stabilizing grooves gives you consistent touch when passing, shooting and dribbling.",
+      "Textured casing offers great touch and feel on your foot.",
+      "12-panel design provides true and accurate ball flight.",
+      "Rubber bladder helps maintain air pressure and shape."
+    ],
+    "imageURL": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/07c5328a-0e56-4bfa-a849-9f07fc3f05e0/nfhs-club-elite-team-soccer-ball-hLgSc1.png",
+    "id": "CU8057100",
+    "price": 60
+  },
+  {
+    "brand": "Nike",
+    "name": "Skills ball",
+    "description": "Take your game to the next level with the Nike Skills Soccer Ball. It's smaller in size, making it ideal for practicing and developing your footwork.",
+    "specifications": [
+      "Machine-stitched casing provides durability.",
+      "Rubber bladder helps maintain air pressure and shape.",
+      "Rubber bladder helps maintain air pressure and shape."
+    ],
+    "imageURL": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/32b9b408-0e2c-4ed4-aef8-b6adc7d6c5f9/skills-soccer-ball-vZJPW2.png",
+    "id": "DC2391710",
+    "price": 16
+  },
+  {
+    "brand": "adidas",
+    "name": "Al Rihla Pro Ball",
+    "description": "The ball is just the beginning. The rest of your soccer journey is yet to be written. The official match ball of FIFA World Cup Qatar 2022™, this seamless adidas Al Rihla Pro ball takes precision to new heights. Its dhow-inspired Speedshell panel shape combines with texturing and diamond debossing to enhance swerve and accuracy. The vibrant graphics shimmer under a pearlescent finish.",
+    "specifications": [
+      "70% polyurethane, 20% recycled polyester, 10% viscose cover",
+      "Thermally bonded seamless construction",
+      "Rubber bladder",
+      "FIFA Quality Pro certified"
+    ],
+    "imageURL": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/28530d07245942fc944dae680084fb30_9366/Al_Rihla_Pro_Ball_White_H57783_01_standard.jpg",
+    "id": "H57783",
+    "price": 165
+  },
+  {
+    "brand": "adidas",
+    "name": "Al Rihla League Ball",
+    "description": "The ball is just the beginning. The rest of your soccer journey is yet to be written. Displaying graphics inspired by the FIFA World Cup™ official match ball, this adidas Al Rihla League ball is perfect for matches and training sessions. Its seamless TSBE construction adds assurance to touches and a butyl bladder means more playing, less pumping. The box makes it an ideal gift.",
+    "specifications": [
+      "100% TPU cover",
+      "100% TPU cover",
+      "Seamless TSBE construction",
+      "FIFA Quality certified"
+    ],
+    "imageURL": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/54ff0543a9e340c7b7d4ae7600ee4e63_9366/Al_Rihla_League_Ball_White_H57782_01_standard.jpg",
+    "id": "H57782",
+    "price": 65
+  },
+  {
+    "brand": "adidas",
+    "name": "Al Rihla Club Ball",
+    "description": "Al Rihla means the Journey, the ball is just the beginning. The rest of your football journey is yet to be written. Taking design inspiration from the FIFA World Cup™ match ball, this Al Rihla Club ball is machine-stitched for rugged reliability. The butyl bladder means it will stay pumped up for longer, whether you're on the training field or at the park.",
+    "specifications": [
+      "100% TPU cover",
+      "Butyl bladder",
+      "Machine-stitched surface",
+      "FIFA World Cup™ printed logo"
+    ],
+    "imageURL": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/03c69818a0ca44a8b8cbae6800856278_9366/Al_Rihla_Club_Ball_Grey_H57784_01_standard.jpg",
+    "id": "H57784",
+    "price": 20
+  }
+]
