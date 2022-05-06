@@ -1,0 +1,114 @@
+[
+  {
+    "brand": "Nike",
+    "name": "Mecurial FlyLite Superlock",
+    "description": "The Nike Mercurial FlyLite Superlock Shin Guards feature SuperLock technology that locks into sock fibers to help keep guards in place. The lightweight design combines geometric channels and webbing to replace traditional foam to help cushion against impact.",
+    "specifications": [
+      "Left/right-specific fit",
+      "Materials: 43% polyamide/29% TPE/28% polyurethane",
+      "Flexible shell molds to your leg for a comfortable fit.",
+      "Lightweight shells combine with webbing to help cushion impact while improving breathability."
+    ],
+    "imageURL": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/c7ed3aec-1d46-4ba8-918a-b4dc599e8310/mercurial-flylite-superlock-soccer-shin-guards-qJxqCm.png"
+    ],
+    "id": "CK2155910",
+    "price": 75
+  },
+  {
+    "brand": "Nike",
+    "name": "Nike Charge",
+    "description": "Step onto the field with confidence when you wear the Nike Charge Shin Guards. A hard shell creates low-profile coverage and has a foam back for comfort.",
+    "specifications": [
+      "Materials: 43% polypropylene/33% EVA/17% polyester/7% rubber",
+      "Pull-on stirrup design stays in place during play.",
+      "Pull-on stirrup design stays in place during play.",
+      "Foam back fits the contours of your shin for comfort."
+    ],
+    "imageURL": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/7d890d19-8871-4555-9c4f-f5b26774c631/charge-soccer-shin-guards-gs13m2.png"
+    ],
+    "id": "SP2164010",
+    "price": 15
+  },
+  {
+    "brand": "adidas",
+    "name": "Predator League Shin Guards",
+    "description": "Soccer confidence flows when you know everything's in the right place. These adidas Predator League shin guards keep you bossing the pitch with robust hard shields backed with EVA for absorbing the hardest hits. They come with separate compression sleeves designed to hold them firmly in place.",
+    "specifications": [
+      "Shell: 95% polypropylene, 5% TPR",
+      "Hard shield",
+      "Lined EVA backing",
+      "Compression sleeve"
+    ],
+    "imageURL": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/755f7b3e9eef4c8eb44cae3500fe564d_9366/Predator_League_Shin_Guards_White_H65530_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d7767dc0ed4d4e8d94bfae3500fe69ae_9366/Predator_League_Shin_Guards_White_H65530_42_detail.jpg"
+    ],
+    "id": "H65530",
+    "price": 22
+  },
+  {
+    "brand": "adidas",
+    "name": "X League Shin Guards",
+    "description": "Soccer only flows when you feel free, so these lightweight adidas X League Shin Guards offer a solid defense without sacrificing agility. They're backed with molded, perforated EVA for comfortable cushioning and enhanced shock absorption. A compression sleeve holds everything in place so you stay one step ahead.",
+    "specifications": [
+      "Shell: 100% TPU",
+      "Hard shield",
+      "Molded EVA backing with perforations",
+      "Compression sleeve holds shield"
+    ],
+    "imageURL": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/70d201d8a338414aa1d8ae3500fe86ed_9366/X_League_Shin_Guards_White_HA1057_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/026bd757592f40d1b017ae3500fe9c94_9366/X_League_Shin_Guards_White_HA1057_42_detail.jpg"
+    ],
+    "id": "HA1057",
+    "price": 20
+  },
+  {
+    "brand": "Puma",
+    "name": "Ultra Flex Sleeve Shin Guards",
+    "description": "You're in good hands with the ULTRA Flex Sleeve Shin Guards. They combine high-impact resistance with a comfortable, lightweight fit, so you'll feel free and agile on the pitch.",
+    "specifications": [
+      "Flexible and high-impact resistant TPU softshell",
+      "Debossed, perforated CMEVA backing for lightweight shock absorption",
+      "Compression sleeve with slip pocket for agility and secure fit",
+      "Compression sleeve with slip pocket for agility and secure fit"
+    ],
+    "imageURL": [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/030830/08/fnd/PNA/fmt/png"
+    ],
+    "id": "03083008",
+    "price": 25
+  },
+  {
+    "brand": "Puma",
+    "name": "Standalone Shin Guards",
+    "description": "We've got your defense covered with the PUMA Standalone Shin Guards. Featuring a high impact-resistant shell and ultra-comfortable shock-absorbing backing, these shin guards come with an additional compression sleeve for the ultimate secure fit.",
+    "specifications": [
+      "High impact-resistant PP hardshell",
+      "EVA foam backing for shock absorption and comfort",
+      "Additional compression sleeve for secure fit"
+    ],
+    "imageURL": [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/030835/02/fnd/PNA/fmt/png"
+    ],
+    "id": "03083502",
+    "price": 16
+  },
+  {
+    "brand": "Puma",
+    "name": "ftblNXT Spirit Ankle Shin Guards",
+    "description": "The ftblNXT Shinguard collection meets the needs of our top player’s by offering a wide choice of fits that all remain true to the core principles of protection and fit whilst remaining light, flexible, and unrestrictive to the agility, pace, and movement of the modern game.",
+    "specifications": [
+      "High impact resistant PP hardshell",
+      "EVA backing provides good shock absorption and optimal comfort",
+      "NOCSAE approved"
+    ],
+    "imageURL": [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/030815/05/fnd/PNA/fmt/png"
+    ],
+    "id": "03081505",
+    "price": 13
+  }
+]

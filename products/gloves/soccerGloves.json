@@ -10,7 +10,7 @@
       "Anatomical flex zones",
       "Zone Skin on fingers and backhand"
     ],
-    "imageURL": [
+    "imageURLS": [
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3f95e60558ca400a910cae1c00c26af0_9366/Predator_Pro_Gloves_White_H62418_21_model.jpg",
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2c3c7f32715d4b7eb2d1ae1c00c274bc_9366/Predator_Pro_Gloves_White_H62418_23_hover_model.jpg"
     ],
@@ -27,7 +27,7 @@
       "Palm: Soft Grip Pro 100% rubber foam",
       "Elastic bandage"
     ],
-    "imageURL": [
+    "imageURLS": [
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ffa6aedd18b04ed2b8ccae0c00e01dec_9366/Predator_Match_Gloves_Blue_H53733_21_model.jpg",
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c4ba0e20f02a42928e6cae0c00e027dd_9366/Predator_Match_Gloves_Blue_H53733_23_hover_model.jpg"
     ],
@@ -44,7 +44,7 @@
       "Body: 63% polyester, 37% polyurethane",
       "Elastic bandage"
     ],
-    "imageURL": [
+    "imageURLS": [
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/62ea3a59a2e3481ea938adf800eabac6_9366/X_Training_Gloves_Blue_HB8062_21_model.jpg",
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0d322a0ace6147e5bdd4adf800eac479_9366/X_Training_Gloves_Blue_HB8062_23_hover_model.jpg"
     ],
@@ -62,7 +62,7 @@
       "Adjustable wrist strap and reverse stitching on the back hand create a secure fit.",
       "40% polyester/33% latex/21% EVA/6% nylon"
     ],
-    "imageURL": [
+    "imageURLS": [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/d435da8c-749f-4fba-b291-59f5ae371273/goalkeeper-match-soccer-gloves-SWG3MJ.png",
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5,q_80/bbcda3e1-66da-4b2a-adc2-6d65b3f877a2/goalkeeper-match-soccer-gloves-SWG3MJ.png"
     ],
@@ -80,7 +80,7 @@
       "Knit/fabric backhand for excellent fit, reactivity and comfort",
       "44% Latex 55% PES 1% PU"
     ],
-    "imageURL": [
+    "imageURLS": [
       "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/041752/07/fnd/PNA/fmt/png"
     ],
     "id": "04175207",
@@ -97,7 +97,7 @@
       "Weight-reduced body material for highest wearing comfort and breathability",
       "SHELL: 55% polyester, 44% latex, 1% polyurethane"
     ],
-    "imageURL": [
+    "imageURLS": [
       "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/041786/05/fnd/PNA/fmt/png"
     ],
     "id": "04178605",
