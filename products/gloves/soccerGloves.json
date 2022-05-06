@@ -1,0 +1,106 @@
+[
+  {
+    "brand": "adidas",
+    "name": "Predator Pro Gloves",
+    "description": "Designed to perform in all the right places. These adidas Predator goalkeeper gloves have a silicone Zone Skin coating on their adaptive knit backhand to help you clear the ball. Protected by an abrasion zone on the lateral side, the top-quality URG 2.0 palm offers extended grip and cushioning. A strapless, compressive entry keeps the fit feeling natural.",
+    "specifications": [
+      "Negative cut",
+      "Body: 91% polyester, 8% elastane, 1% nylon plain knit",
+      "Palm: URG 2.0 100% rubber foam",
+      "Anatomical flex zones",
+      "Zone Skin on fingers and backhand"
+    ],
+    "imageURL": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3f95e60558ca400a910cae1c00c26af0_9366/Predator_Pro_Gloves_White_H62418_21_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2c3c7f32715d4b7eb2d1ae1c00c274bc_9366/Predator_Pro_Gloves_White_H62418_23_hover_model.jpg"
+    ],
+    "id": "H62418",
+    "price": 120
+  },
+  {
+    "brand": "adidas",
+    "name": "Predator Match Gloves",
+    "description": "Designed to perform in all the right places. Made for matches and training sessions, these adidas Predator goalkeeper gloves have a durable Soft Grip Pro palm for match-turning grip and comfortable cushioning during whatever conditions Mother Nature throws at you. At the wrist, a fixed, full-wrap strap locks you in for confident keeping.",
+    "specifications": [
+      "Half-negative cut",
+      "Body: 63% polyester, 37% polyurethane",
+      "Palm: Soft Grip Pro 100% rubber foam",
+      "Elastic bandage"
+    ],
+    "imageURL": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ffa6aedd18b04ed2b8ccae0c00e01dec_9366/Predator_Match_Gloves_Blue_H53733_21_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c4ba0e20f02a42928e6cae0c00e027dd_9366/Predator_Match_Gloves_Blue_H53733_23_hover_model.jpg"
+    ],
+    "id": "H53733",
+    "price": 40
+  },
+  {
+    "brand": "adidas",
+    "name": "X Training Gloves",
+    "description": "Head. Hands. Feet. As soccer gets faster, your goalkeeping game has to flow. These adidas X Training Gloves remove distractions with a lightweight build and an elasticized, strapless entry. Breathable and flexible, the mesh backhand ensures every movement feels natural. On the palm, Soft Grip latex keeps you ahead of the game.",
+    "specifications": [
+      "Negative cut",
+      "Palm: Soft Grip 100% rubber foam",
+      "Body: 63% polyester, 37% polyurethane",
+      "Elastic bandage"
+    ],
+    "imageURL": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/62ea3a59a2e3481ea938adf800eabac6_9366/X_Training_Gloves_Blue_HB8062_21_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0d322a0ace6147e5bdd4adf800eac479_9366/X_Training_Gloves_Blue_HB8062_23_hover_model.jpg"
+    ],
+    "id": "HB8062",
+    "price": 25
+  },
+  {
+    "brand": "Nike",
+    "name": "Nike Goalkeeper Match Gloves",
+    "description": "The Nike Goalkeeper Match Gloves are ready to make every save. Soft padding provides cushioning against shots, while a smooth surface gives you grip in wet or dry conditions.",
+    "specifications": [
+      "Foam on the palm provides plush cushioning and impact absorption.",
+      "Mesh panels allow airflow to help keep your hands cool.",
+      "Smooth surface on the palm helps you grip the ball better.",
+      "Adjustable wrist strap and reverse stitching on the back hand create a secure fit.",
+      "40% polyester/33% latex/21% EVA/6% nylon"
+    ],
+    "imageURL": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/d435da8c-749f-4fba-b291-59f5ae371273/goalkeeper-match-soccer-gloves-SWG3MJ.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5,q_80/bbcda3e1-66da-4b2a-adc2-6d65b3f877a2/goalkeeper-match-soccer-gloves-SWG3MJ.png"
+    ],
+    "id": "CQ7799010",
+    "price": 30
+  },
+  {
+    "brand": "Puma",
+    "name": "Future Z Grip 1 Hybrid Goalkeeper Gloves",
+    "description": "Keep your eye on the ball and all eyes on you. From the all-new FUTURE Z collection, these goalkeeper gloves make sure your gear is on point from head to toe. The high-tech FUTURE Z Grip 1 Hybrid Goalkeeper Gloves are engineered to give you maximum freedom of movement and fantastic grip on the ball – all with a dynamic, eye-catching design.",
+    "specifications": [
+      "Hybrid palm cut provides additional grip and improved fit",
+      "4 mm ELITE+ grip Latex with extra-sticky material for grip in all weather conditions",
+      "Thumb wrap increases Latex-to-ball contact",
+      "Knit/fabric backhand for excellent fit, reactivity and comfort",
+      "44% Latex 55% PES 1% PU"
+    ],
+    "imageURL": [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/041752/07/fnd/PNA/fmt/png"
+    ],
+    "id": "04175207",
+    "price": 130
+  },
+  {
+    "brand": "Puma",
+    "name": "Ultra Grip 1 Hybrid Pro Goalkeeper Gloves",
+    "description": "You asked and we answered. Our ULTRA line is designed to meet and exceed every need of the modern goalkeeper. From breathability to fit and grip, we've packed these gloves with technology to ensure the highest performance on the market. We used our exclusive GRDXKN print to deliver the lightest weight, fastest and most flexible gloves out there. Our ULTRA Grip 1 Hybrid Pro Goalkeeper Gloves feature a 4 mm superior grip latex palm made of 90% renewable raw materials to deliver exceptional grip in both wet and dry conditions, and the reduced weight body material amplifies comfort and breathability. For performance you can rely on.",
+    "specifications": [
+      "Gunn/negative-mixed palm cut provides additional grip and improved fit",
+      "PUMA exclusive GRDKXN punching zone provides perfect ball control when punching",
+      "Twin-wrap thumb and latex gussets maximise latex-to-ball contact even when fingers are twisted",
+      "Weight-reduced body material for highest wearing comfort and breathability",
+      "SHELL: 55% polyester, 44% latex, 1% polyurethane"
+    ],
+    "imageURL": [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/041786/05/fnd/PNA/fmt/png"
+    ],
+    "id": "04178605",
+    "price": 110
+  }
+]
