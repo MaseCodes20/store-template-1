@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="sticky h-[40px] bg-slate-400">
+    <header className="sticky top-0 z-10 h-[40px] bg-slate-400">
       <div className="flex justify-center items-center">
         <button className="mx-4">
           <h1>Logo</h1>
