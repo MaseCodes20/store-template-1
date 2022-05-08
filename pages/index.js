@@ -55,7 +55,7 @@ export default function Home() {
       </div>
 
       <div className="relative">
-        <div className="absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4">
+        <div className="centered">
           <h1 className="text-white font-bold text-5xl border-2 shadow-md text-center">
             Never lose focus!
           </h1>
