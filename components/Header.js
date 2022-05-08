@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <header className="sticky top-0 z-10 bg-slate-400">
-      <div className="flex justify-center items-center h-10">
+      <div className="hidden md:flex justify-center items-center h-10">
         <button className="mx-4">
           <h1>Logo</h1>
         </button>
