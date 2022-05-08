@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import React from "react";
+import { HeartIcon, ShoppingBagIcon, UserIcon } from "@heroicons/react/outline";
 
 function Header() {
   const router = useRouter();
@@ -32,15 +33,15 @@ function Header() {
         </div>
 
         <button className="mx-4">
-          <h1>Account logo</h1>
+          <UserIcon className="h-7" />
         </button>
 
         <button className="mx-4">
-          <h1>favorite icon</h1>
+          <HeartIcon className="h-7" />
         </button>
 
         <button className="mx-4">
-          <h1>cart icon</h1>
+          <ShoppingBagIcon className="h-7" />
         </button>
       </div>
     </header>
