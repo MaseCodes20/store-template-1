@@ -1,8 +1,11 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import Header from "../components/Header";
 import SaleBar from "../components/SaleBar";
 
 export default function Home() {
+  const router = useRouter();
+
   return (
     <div className="lg:px-[52px]">
       <Head>
@@ -20,34 +23,34 @@ export default function Home() {
       </div>
 
       <div className="h-screen lg:flex justify-between items-center my-20 px-10">
-        <div className="mx-auto">
+        <div className="">
           <img
-            className="max-h-[300px] mx-auto"
+            className="max-h-[300px] mx-auto lg:mx-0"
             src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/8f35d730-665b-442b-b01c-f586b3928401/nike-soccer.jpg"
             alt="Soccer cleats"
           />
 
-          <button>page button</button>
+          <button onClick={() => router.push("/cleats")}>Soccer cleats</button>
         </div>
 
         <div className="">
           <img
-            className="max-h-[300px] mx-auto"
+            className="max-h-[300px] mx-auto lg:mx-0"
             src="https://strivechallenge.com/wp-content/uploads/2018/02/shinguard-1.jpg"
             alt="soccer shin guards"
           />
 
-          <button>page button</button>
+          <button onClick={() => router.push("/shinguards")}>Shinguards</button>
         </div>
 
         <div className="">
           <img
-            className="max-h-[300px] mx-auto"
+            className="max-h-[300px] mx-auto  lg:mx-0"
             src="https://athleticlift.com/wp-content/uploads/2019/05/soccer_ball_facts_005.jpg"
             alt="soccer ball"
           />
 
-          <button>page button</button>
+          <button onClick={() => router.push("/balls")}>Soccer Balls</button>
         </div>
       </div>
 
