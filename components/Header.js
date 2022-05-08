@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import React from "react";
 import { HeartIcon, ShoppingBagIcon, UserIcon } from "@heroicons/react/outline";
+import SearchBar from "./SearchBar";
 
 function Header() {
   const router = useRouter();
@@ -28,9 +29,8 @@ function Header() {
             </button>
           </nav>
         </div>
-        <div className="mx-4">
-          <p>search bar</p>
-        </div>
+
+        <SearchBar />
 
         <button className="mx-4">
           <UserIcon className="h-7" />
