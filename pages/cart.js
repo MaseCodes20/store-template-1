@@ -1,12 +1,21 @@
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/outline";
-import React from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Header from "../components/Header";
-import { increase, decrease, removeItem } from "../features/cart/cartSlice";
+import {
+  increase,
+  decrease,
+  removeItem,
+  calculateTotals,
+} from "../features/cart/cartSlice";
 
 function Cart() {
   const { cartItems } = useSelector((store) => store.cart);
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(calculateTotals());
+  }, [cartItems]);
 
   return (
     <div className="pageContainer">

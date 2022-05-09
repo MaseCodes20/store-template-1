@@ -1,12 +1,18 @@
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useEffect } from "react";
 import { HeartIcon, ShoppingBagIcon, UserIcon } from "@heroicons/react/outline";
 import SearchBar from "./SearchBar";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { calculateTotals } from "../features/cart/cartSlice";
 
 function Header() {
-  const { cartItems } = useSelector((store) => store.cart);
+  const { cartItems, quantity } = useSelector((store) => store.cart);
+  const dispatch = useDispatch();
   const router = useRouter();
+
+  useEffect(() => {
+    dispatch(calculateTotals());
+  }, [cartItems]);
 
   return (
     <header className="sticky top-0 z-10 bg-white">
@@ -50,7 +56,7 @@ function Header() {
 
         <div className="relative mx-4">
           <div className="absolute top-0 right-0 text-red-500">
-            <p>{cartItems.length}</p>
+            <p>{quantity}</p>
           </div>
 
           <button onClick={() => router.push("/cart")}>
