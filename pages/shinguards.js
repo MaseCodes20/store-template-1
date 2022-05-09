@@ -20,6 +20,7 @@ function Shinguards() {
                 name={name}
                 price={price}
                 id={id}
+                product={shinGuard}
               />
             );
           })}

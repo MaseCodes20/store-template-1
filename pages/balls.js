@@ -20,6 +20,7 @@ function Balls() {
                 name={name}
                 price={price}
                 id={id}
+                product={ball}
               />
             );
           })}

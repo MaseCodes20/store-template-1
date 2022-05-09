@@ -20,6 +20,7 @@ function Gloves() {
                 name={name}
                 price={price}
                 id={id}
+                product={glove}
               />
             );
           })}
