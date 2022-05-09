@@ -2,8 +2,10 @@ import { useRouter } from "next/router";
 import React from "react";
 import { HeartIcon, ShoppingBagIcon, UserIcon } from "@heroicons/react/outline";
 import SearchBar from "./SearchBar";
+import { useSelector } from "react-redux";
 
 function Header() {
+  const { quantity } = useSelector((store) => store.cart);
   const router = useRouter();
 
   return (
@@ -46,9 +48,15 @@ function Header() {
           <HeartIcon className="h-7" />
         </button>
 
-        <button className="mx-4">
-          <ShoppingBagIcon className="h-7" />
-        </button>
+        <div className="relative mx-4">
+          <div className="absolute top-0 right-0 text-red-500">
+            <p>{quantity}</p>
+          </div>
+
+          <button>
+            <ShoppingBagIcon className="h-7" />
+          </button>
+        </div>
       </div>
     </header>
   );
