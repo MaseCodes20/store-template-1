@@ -20,6 +20,7 @@ function Cleats() {
                 name={name}
                 price={price}
                 id={id}
+                product={cleat}
               />
             );
           })}

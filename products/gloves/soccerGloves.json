@@ -15,6 +15,7 @@
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2c3c7f32715d4b7eb2d1ae1c00c274bc_9366/Predator_Pro_Gloves_White_H62418_23_hover_model.jpg"
     ],
     "id": "H62418",
+    "quantity": 1,
     "price": 120
   },
   {
@@ -32,6 +33,7 @@
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c4ba0e20f02a42928e6cae0c00e027dd_9366/Predator_Match_Gloves_Blue_H53733_23_hover_model.jpg"
     ],
     "id": "H53733",
+    "quantity": 1,
     "price": 40
   },
   {
@@ -49,6 +51,7 @@
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0d322a0ace6147e5bdd4adf800eac479_9366/X_Training_Gloves_Blue_HB8062_23_hover_model.jpg"
     ],
     "id": "HB8062",
+    "quantity": 1,
     "price": 25
   },
   {
@@ -67,6 +70,7 @@
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5,q_80/bbcda3e1-66da-4b2a-adc2-6d65b3f877a2/goalkeeper-match-soccer-gloves-SWG3MJ.png"
     ],
     "id": "CQ7799010",
+    "quantity": 1,
     "price": 30
   },
   {
@@ -84,6 +88,7 @@
       "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/041752/07/fnd/PNA/fmt/png"
     ],
     "id": "04175207",
+    "quantity": 1,
     "price": 130
   },
   {
@@ -101,6 +106,7 @@
       "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/041786/05/fnd/PNA/fmt/png"
     ],
     "id": "04178605",
+    "quantity": 1,
     "price": 110
   }
 ]

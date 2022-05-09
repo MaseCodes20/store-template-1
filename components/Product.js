@@ -1,7 +1,10 @@
 import React from "react";
 import { HeartIcon, ShoppingCartIcon } from "@heroicons/react/outline";
+import { useDispatch } from "react-redux";
+import { addItem } from "../features/cart/cartSlice";
 
-function Product({ id, imageURLS, name, price, brand }) {
+function Product({ id, imageURLS, name, price, brand, product }) {
+  const dispatch = useDispatch();
   return (
     <div
       key={id}
@@ -18,7 +21,10 @@ function Product({ id, imageURLS, name, price, brand }) {
             <HeartIcon className="h-7" />
           </button>
           <button className="mx-1">
-            <ShoppingCartIcon className="h-7" />
+            <ShoppingCartIcon
+              className="h-7"
+              onClick={() => dispatch(addItem(product))}
+            />
           </button>
         </div>
       </div>

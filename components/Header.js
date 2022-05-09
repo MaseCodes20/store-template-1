@@ -5,7 +5,7 @@ import SearchBar from "./SearchBar";
 import { useSelector } from "react-redux";
 
 function Header() {
-  const { quantity } = useSelector((store) => store.cart);
+  const { cartItems } = useSelector((store) => store.cart);
   const router = useRouter();
 
   return (
@@ -50,10 +50,10 @@ function Header() {
 
         <div className="relative mx-4">
           <div className="absolute top-0 right-0 text-red-500">
-            <p>{quantity}</p>
+            <p>{cartItems.length}</p>
           </div>
 
-          <button>
+          <button onClick={() => router.push("/cart")}>
             <ShoppingBagIcon className="h-7" />
           </button>
         </div>
