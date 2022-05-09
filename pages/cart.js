@@ -7,6 +7,7 @@ import {
   decrease,
   removeItem,
   calculateTotals,
+  clearCart,
 } from "../features/cart/cartSlice";
 
 function Cart() {
@@ -22,7 +23,7 @@ function Cart() {
       <Header />
       {/* <CartContainer /> */}
       <div className="mx-auto mt-4">
-        <div className="relative mx-auto border-2 border-black p-2 rounded-md max-w-[600px] min-h-[500px]">
+        <div className="relative mx-auto border-2 border-black p-2 rounded-md max-w-[600px] min-h-[560px]">
           <div className="text-center font-bold">
             <h1>YOUR BAG</h1>
           </div>
@@ -88,6 +89,14 @@ function Cart() {
             <div className="flex justify-between mx-3 mb-3 font-bold uppercase">
               <p>total</p>
               <p>${total}</p>
+            </div>
+            <div className="mx-auto w-fit text-2xl pb-2">
+              <button
+                onClick={() => dispatch(clearCart())}
+                className="border-2 border-red-500 p-2 uppercase text-red-500"
+              >
+                Clear cart
+              </button>
             </div>
           </div>
         </div>
