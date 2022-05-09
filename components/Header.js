@@ -24,6 +24,12 @@ function Header() {
             <button className="mx-2" onClick={() => router.push("/balls")}>
               Balls
             </button>
+            <button className="mx-2" onClick={() => router.push("/gloves")}>
+              Gloves
+            </button>
+            <button className="mx-2" onClick={() => router.push("/favorites")}>
+              favorites
+            </button>
             <button className="mx-2" onClick={() => router.push("/")}>
               About
             </button>

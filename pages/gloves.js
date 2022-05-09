@@ -1,17 +1,17 @@
 import React from "react";
 import Header from "../components/Header";
 import Product from "../components/Product";
-import balls from "../products/balls/soccerBalls.json";
+import gloves from "../products/gloves/soccerGloves.json";
 
-function Balls() {
+function Gloves() {
   return (
     <div className="pageContainer">
       <Header />
       <div className="productsGrid">
-        {balls
+        {gloves
           ?.sort((a, b) => b.price - a.price)
-          .map((ball) => {
-            const { id, imageURLS, name, price, brand } = ball;
+          .map((glove) => {
+            const { id, imageURLS, name, price, brand } = glove;
             return (
               <Product
                 key={id}
@@ -28,4 +28,4 @@ function Balls() {
   );
 }
 
-export default Balls;
+export default Gloves;
