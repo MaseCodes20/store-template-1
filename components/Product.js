@@ -7,6 +7,8 @@ function Product({ id, imageURLS, name, price, brand, product }) {
   const { cartItems } = useSelector((store) => store.cart);
   const dispatch = useDispatch();
 
+  const cartItem = cartItems.find((item) => item.id === id);
+
   return (
     <div
       key={id}
@@ -26,7 +28,7 @@ function Product({ id, imageURLS, name, price, brand, product }) {
             <ShoppingCartIcon
               className="h-7"
               onClick={() => {
-                if (cartItems.find((item) => item.id === id) === id) {
+                if (cartItem) {
                   return;
                 }
                 dispatch(addItem(product));
