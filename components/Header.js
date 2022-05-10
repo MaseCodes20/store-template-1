@@ -5,6 +5,7 @@ import SearchBar from "./SearchBar";
 import { useDispatch, useSelector } from "react-redux";
 import { calculateTotals } from "../features/cart/cartSlice";
 import EquipmentsMenu from "./EquipmentsMenu";
+import CleatsMenu from "./CleatsMenu";
 
 function Header() {
   const { cartItems, quantity } = useSelector((store) => store.cart);
@@ -24,9 +25,7 @@ function Header() {
 
         <div className="flex-1 bg-white">
           <nav className="flex justify-center">
-            <button className="mx-2" onClick={() => router.push("/cleats")}>
-              Soccer cleats
-            </button>
+            <CleatsMenu />
             <EquipmentsMenu />
             <button className="mx-2" onClick={() => router.push("/favorites")}>
               favorites
