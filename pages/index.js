@@ -24,33 +24,66 @@ export default function Home() {
 
       <div className="h-screen lg:flex justify-between items-center my-20 px-10">
         <div className="">
-          <img
-            className="max-h-[300px] mx-auto lg:mx-0"
-            src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/8f35d730-665b-442b-b01c-f586b3928401/nike-soccer.jpg"
-            alt="Soccer cleats"
-          />
+          <a
+            onClick={() => router.push("/cleats")}
+            className="cursor-pointer"
+            aria-label="Link to soccer cleats page"
+          >
+            <img
+              className="max-h-[300px] mx-auto lg:mx-0"
+              src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/8f35d730-665b-442b-b01c-f586b3928401/nike-soccer.jpg"
+              alt="Soccer cleats"
+            />
+          </a>
 
-          <button onClick={() => router.push("/cleats")}>Soccer cleats</button>
+          <button
+            onClick={() => router.push("/cleats")}
+            className="homePageBodyButton"
+          >
+            Soccer cleats
+          </button>
         </div>
 
         <div className="">
-          <img
-            className="max-h-[300px] mx-auto lg:mx-0"
-            src="https://strivechallenge.com/wp-content/uploads/2018/02/shinguard-1.jpg"
-            alt="soccer shin guards"
-          />
+          <a
+            onClick={() => router.push("/shinguards")}
+            className="cursor-pointer"
+            aria-label="Link to shin guards page"
+          >
+            <img
+              className="max-h-[300px] mx-auto lg:mx-0"
+              src="https://strivechallenge.com/wp-content/uploads/2018/02/shinguard-1.jpg"
+              alt="soccer shin guards"
+            />
+          </a>
 
-          <button onClick={() => router.push("/shinguards")}>Shinguards</button>
+          <button
+            onClick={() => router.push("/shinguards")}
+            className="homePageBodyButton"
+          >
+            Shinguards
+          </button>
         </div>
 
         <div className="">
-          <img
-            className="max-h-[300px] mx-auto  lg:mx-0"
-            src="https://athleticlift.com/wp-content/uploads/2019/05/soccer_ball_facts_005.jpg"
-            alt="soccer ball"
-          />
+          <a
+            onClick={() => router.push("/balls")}
+            className="cursor-pointer"
+            aria-label="Link to balls page"
+          >
+            <img
+              className="max-h-[300px] mx-auto  lg:mx-0"
+              src="https://athleticlift.com/wp-content/uploads/2019/05/soccer_ball_facts_005.jpg"
+              alt="soccer ball"
+            />
+          </a>
 
-          <button onClick={() => router.push("/balls")}>Soccer Balls</button>
+          <button
+            onClick={() => router.push("/balls")}
+            className="homePageBodyButton"
+          >
+            Soccer Balls
+          </button>
         </div>
       </div>
 

@@ -4,8 +4,6 @@ import { HeartIcon, ShoppingBagIcon, UserIcon } from "@heroicons/react/outline";
 import SearchBar from "./SearchBar";
 import { useDispatch, useSelector } from "react-redux";
 import { calculateTotals } from "../features/cart/cartSlice";
-import EquipmentsMenu from "./menu/EquipmentsMenu";
-import CleatsMenu from "./menu/CleatsMenu";
 import WebMenu from "./menu/WebMenu";
 import MobileMenu from "./menu/MobileMenu";
 
