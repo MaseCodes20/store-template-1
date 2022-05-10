@@ -8,7 +8,7 @@ function ClearCartModal() {
 
   return (
     <div className="absolute top-0 left-0 bottom-0 right-0 bg-gray-500/75 z-20">
-      <div className="centered w-fit bg-white z-30">
+      <div className="centered w-fit bg-white z-30 rounded-md">
         <div className="w-[250px] text-center p-7 font-bold">
           <p>Remove all items from your shopping cart?</p>
           <div className="flex justify-between mt-5">

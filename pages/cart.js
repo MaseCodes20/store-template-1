@@ -49,15 +49,15 @@ function Cart() {
                       alt={name}
                       className="h-[100px] w-[100px] rounded-md"
                     />
-                    <div className="flex-1 relative ml-5 h-fit bg-slate-50">
-                      <div className="mt-4">
-                        <h1>{name}</h1>
-                        <p>${price}</p>
+                    <div className="flex-1 relative ml-5 h-fit">
+                      <div className="">
+                        <h1 className="font-bold">{name}</h1>
+                        <p>${price.toFixed()}</p>
                       </div>
 
                       <button
                         onClick={() => dispatch(removeItem(id))}
-                        className=""
+                        className="text-blue-900"
                       >
                         remove
                       </button>
