@@ -4,6 +4,7 @@ import { HeartIcon, ShoppingBagIcon, UserIcon } from "@heroicons/react/outline";
 import SearchBar from "./SearchBar";
 import { useDispatch, useSelector } from "react-redux";
 import { calculateTotals } from "../features/cart/cartSlice";
+import EquipmentsMenu from "./EquipmentsMenu";
 
 function Header() {
   const { cartItems, quantity } = useSelector((store) => store.cart);
@@ -26,15 +27,7 @@ function Header() {
             <button className="mx-2" onClick={() => router.push("/cleats")}>
               Soccer cleats
             </button>
-            <button className="mx-2" onClick={() => router.push("/shinguards")}>
-              Shin guards
-            </button>
-            <button className="mx-2" onClick={() => router.push("/balls")}>
-              Balls
-            </button>
-            <button className="mx-2" onClick={() => router.push("/gloves")}>
-              Gloves
-            </button>
+            <EquipmentsMenu />
             <button className="mx-2" onClick={() => router.push("/favorites")}>
               favorites
             </button>
