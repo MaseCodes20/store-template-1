@@ -1,17 +1,20 @@
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/outline";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import ClearCartModal from "../components/clearCartModal";
 import Header from "../components/Header";
 import {
   increase,
   decrease,
   removeItem,
   calculateTotals,
-  clearCart,
 } from "../features/cart/cartSlice";
+import { openModal } from "../features/modal/modalSlice";
 
 function Cart() {
   const { cartItems, total } = useSelector((store) => store.cart);
+  const { isOpen } = useSelector((store) => store.modal);
+
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -22,6 +25,8 @@ function Cart() {
     <div className="pageContainer">
       <Header />
       {/* <CartContainer /> */}
+      {isOpen && <ClearCartModal />}
+
       <div className="mx-auto mt-4">
         <div className="relative mx-auto border-2 border-black p-2 rounded-md max-w-[600px] min-h-[560px]">
           <div className="text-center text-2xl font-bold">
@@ -92,7 +97,7 @@ function Cart() {
             </div>
             <div className="mx-auto w-fit text-2xl mb-2">
               <button
-                onClick={() => dispatch(clearCart())}
+                onClick={() => dispatch(openModal())}
                 className="border-2 border-red-500 p-2 uppercase text-red-500"
               >
                 Clear cart
