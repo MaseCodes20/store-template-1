@@ -24,7 +24,7 @@ function Cart() {
       {/* <CartContainer /> */}
       <div className="mx-auto mt-4">
         <div className="relative mx-auto border-2 border-black p-2 rounded-md max-w-[600px] min-h-[560px]">
-          <div className="text-center font-bold">
+          <div className="text-center text-2xl font-bold">
             <h1>YOUR BAG</h1>
           </div>
           <div className="relative h-[400px] my-2 overflow-y-scroll">
@@ -42,7 +42,7 @@ function Cart() {
                     <img
                       src={imageURLS[0]}
                       alt={name}
-                      className=" w-[100px] rounded-md"
+                      className="h-[100px] w-[100px] rounded-md"
                     />
                     <div className="flex-1 relative ml-5 h-fit bg-slate-50">
                       <div className="mt-4">
@@ -85,12 +85,12 @@ function Cart() {
           </div>
 
           <hr className="h-[2px] w-[96%] mx-auto bg-black" />
-          <div className="absolute bottom-0 right-0 left-0">
+          <div className="mt-3">
             <div className="flex justify-between mx-3 mb-3 font-bold uppercase">
               <p>total</p>
               <p>${total}</p>
             </div>
-            <div className="mx-auto w-fit text-2xl pb-2">
+            <div className="mx-auto w-fit text-2xl mb-2">
               <button
                 onClick={() => dispatch(clearCart())}
                 className="border-2 border-red-500 p-2 uppercase text-red-500"

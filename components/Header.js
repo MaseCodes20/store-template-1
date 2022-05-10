@@ -55,11 +55,16 @@ function Header() {
         </button>
 
         <div className="relative mx-4">
-          <div className="absolute top-0 right-0 text-red-500">
-            <p>{quantity}</p>
-          </div>
-
           <button onClick={() => router.push("/cart")}>
+            {quantity >= 1 && (
+              <div className="absolute top-0 right-0 font-bold text-red-500">
+                <div className="relative h-[18px] w-[16px] animate-bounce rounded-full bg-white opacity-90">
+                  <div className="centered text-lg">
+                    <p>{quantity}</p>
+                  </div>
+                </div>
+              </div>
+            )}
             <ShoppingBagIcon className="h-7" />
           </button>
         </div>
