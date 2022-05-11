@@ -35,25 +35,14 @@ function MobileMenu() {
             <Menu.Item>
               <EquipmentsMenu />
             </Menu.Item>
+
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`flex justify-end items-center px-4 py-2 cursor-pointer ${
+                  className={`flex justify-end items-center px-5 py-2 cursor-pointer ${
                     active && "bg-pink-500 text-white"
                   }`}
-                  onClick={() => router.push("/favorites")}
-                >
-                  <h1>Favorites</h1>
-                </a>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  className={`flex justify-end items-center px-4 py-2 cursor-pointer ${
-                    active && "bg-pink-500 text-white"
-                  }`}
-                  onClick={() => router.push("/")}
+                  onClick={() => router.push("/about")}
                 >
                   <h1>About</h1>
                 </a>

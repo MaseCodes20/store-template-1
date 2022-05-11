@@ -7,7 +7,7 @@ function CleatsMenu() {
   return (
     <Menu as="div" className="mx-2">
       <Menu.Button className="w-full">
-        <h2 className="flex justify-end items-center px-2 py-2">Cleats</h2>
+        <h2 className="flex justify-end items-center mx-3 my-2">Cleats</h2>
       </Menu.Button>
 
       <Transition

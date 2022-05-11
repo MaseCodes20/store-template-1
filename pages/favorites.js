@@ -6,7 +6,7 @@ import Product from "../components/Product";
 function Favorites() {
   const { favorites } = useSelector((store) => store.favorites);
   return (
-    <div>
+    <div className="pageContainer">
       <Header />
 
       <h1 className="text-center font-bold text-5xl">Favorites</h1>
