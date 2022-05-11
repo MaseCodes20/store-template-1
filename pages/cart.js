@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/outline";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -23,6 +24,11 @@ function Cart() {
 
   return (
     <div className="pageContainer">
+      <Head>
+        <title>Cart</title>
+        <meta name="description" content="Created by Masecodes" />
+        <link rel="icon" href="/shop_106574.ico" />
+      </Head>
       <Header />
       {/* <CartContainer /> */}
       {isOpen && <ClearCartModal />}

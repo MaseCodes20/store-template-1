@@ -1,3 +1,4 @@
+import Head from "next/head";
 import React from "react";
 import { useSelector } from "react-redux";
 import Header from "../components/Header";
@@ -7,6 +8,11 @@ function Favorites() {
   const { favorites } = useSelector((store) => store.favorites);
   return (
     <div className="pageContainer">
+      <Head>
+        <title>Favorites</title>
+        <meta name="description" content="Created by Masecodes" />
+        <link rel="icon" href="/shop_106574.ico" />
+      </Head>
       <Header />
 
       <h1 className="text-center font-bold text-5xl">Favorites</h1>

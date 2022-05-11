@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { UserIcon } from "@heroicons/react/outline";
 import React from "react";
 import Header from "../components/Header";
@@ -5,6 +6,11 @@ import Header from "../components/Header";
 function About() {
   return (
     <div className="pageContainer">
+      <Head>
+        <title>About</title>
+        <meta name="description" content="Created by Masecodes" />
+        <link rel="icon" href="/shop_106574.ico" />
+      </Head>
       <Header />
       <div className="text-center">
         <div className="relative min-h-screen">

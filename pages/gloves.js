@@ -1,3 +1,4 @@
+import Head from "next/head";
 import React from "react";
 import Header from "../components/Header";
 import Product from "../components/Product";
@@ -6,6 +7,11 @@ import gloves from "../products/gloves/soccerGloves.json";
 function Gloves() {
   return (
     <div className="pageContainer">
+      <Head>
+        <title>Gloves</title>
+        <meta name="description" content="Created by Masecodes" />
+        <link rel="icon" href="/shop_106574.ico" />
+      </Head>
       <Header />
       <div className="productsGrid">
         {gloves
