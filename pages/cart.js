@@ -101,13 +101,25 @@ function Cart() {
               <p>total</p>
               <p>${total}</p>
             </div>
-            <div className="mx-auto w-fit text-2xl mb-2">
-              <button
-                onClick={() => dispatch(openModal())}
-                className="border-2 border-red-500 p-2 uppercase text-red-500"
-              >
-                Clear cart
-              </button>
+
+            <div className="flex justify-between">
+              <div className="mx-auto w-fit text-2xl mb-2">
+                <button
+                  onClick={() => dispatch(openModal())}
+                  aria-label="Clear cart button"
+                  className="border-2 border-red-500 p-2 uppercase text-red-500"
+                >
+                  Clear cart
+                </button>
+              </div>
+              <div className="mx-auto w-fit text-2xl mb-2">
+                <button
+                  aria-label="Proceed to checkout button"
+                  className="border-2 border-blue-500 p-2 uppercase text-blue-500"
+                >
+                  Proceed to checkout
+                </button>
+              </div>
             </div>
           </div>
         </div>
