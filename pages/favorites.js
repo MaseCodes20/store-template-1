@@ -16,23 +16,28 @@ function Favorites() {
       <Header />
 
       <h1 className="text-center font-bold text-5xl">Favorites</h1>
-
-      <div className="productsGrid">
-        {favorites.map((item) => {
-          const { id, imageURLS, brand, name, price } = item;
-          return (
-            <Product
-              key={id}
-              imageURLS={imageURLS}
-              brand={brand}
-              name={name}
-              price={price}
-              id={id}
-              product={item}
-            />
-          );
-        })}
-      </div>
+      {favorites.length >= 1 ? (
+        <div className="productsGrid">
+          {favorites.map((item) => {
+            const { id, imageURLS, brand, name, price } = item;
+            return (
+              <Product
+                key={id}
+                imageURLS={imageURLS}
+                brand={brand}
+                name={name}
+                price={price}
+                id={id}
+                product={item}
+              />
+            );
+          })}
+        </div>
+      ) : (
+        <div className="centered font-semibold">
+          <p>No item added to favorites.</p>
+        </div>
+      )}
     </div>
   );
 }
