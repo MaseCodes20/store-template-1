@@ -8,10 +8,10 @@ function About() {
       <Header />
       <div className="text-center">
         <div className="relative min-h-screen">
-          <div className="centered">
+          <div className="centered w-full">
             <h1 className="font-bold text-3xl">Company Name</h1>
             {/* About Section */}
-            <div className="md:flex items-center mx-auto my-5 max-w-2xl">
+            <div className="md:flex items-center mx-auto my-5 lg:max-w-3xl">
               <div className="mx-3">
                 <h1 className="mb-6 font-semibold text-lg">About</h1>
                 <p>
@@ -27,7 +27,7 @@ function About() {
               <img
                 src="https://retaildesignblog.net/wp-content/uploads/2014/06/Nike-store-Seoul-South-Korea-720x480.jpg"
                 alt="store interior"
-                className="h-[300px] w-[300px] mx-3"
+                className="h-[300px] w-[300px] mx-auto mt-5 lg:mt-0 lg:mx-3"
               />
             </div>
           </div>
@@ -36,7 +36,7 @@ function About() {
         {/* Team Section */}
         <div className="w-full min-h-screen">
           <h1 className="font-bold text-3xl my-5">Team</h1>
-          <div className="grid grid-cols-3 gap-3 mx-auto w-fit">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 mx-auto my-5 w-fit">
             <div className="h-[300px] w-[300px] text-center border-2 rounded-md border-black p-2">
               <UserIcon className="h-20 mx-auto" />
               <h1 className="font-semibold my-2">Last Name, First Name</h1>
