@@ -13,7 +13,7 @@ function CleatsMenu() {
       <Transition
         as={Fragment}
         enter="transition ease-in duration-300"
-        enterFrom="transform opacity-100 translateY(-10em)"
+        enterFrom="transform opacity-0 translateY(-50%)"
         enterTo="transform opacity-100 translateY(0%)"
         leave="transition ease-out duration-75"
         leaveFrom="transform opacity-100 translateY(0%)"

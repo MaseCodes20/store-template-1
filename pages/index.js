@@ -61,7 +61,7 @@ export default function Home() {
             onClick={() => router.push("/shinguards")}
             className="homePageBodyButton"
           >
-            Shinguards
+            Shin guards
           </button>
         </div>
 
@@ -82,7 +82,7 @@ export default function Home() {
             onClick={() => router.push("/balls")}
             className="homePageBodyButton"
           >
-            Soccer Balls
+            Soccer balls
           </button>
         </div>
       </div>
