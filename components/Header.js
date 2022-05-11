@@ -30,7 +30,7 @@ function Header() {
               <UserIcon className="h-7" />
             </button>
 
-            <button className="mx-4">
+            <button className="mx-4" onClick={() => router.push("/favorites")}>
               <HeartIcon className="h-7" />
             </button>
 

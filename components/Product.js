@@ -2,12 +2,19 @@ import React from "react";
 import { HeartIcon, ShoppingCartIcon } from "@heroicons/react/outline";
 import { useDispatch, useSelector } from "react-redux";
 import { addItem } from "../features/cart/cartSlice";
+import {
+  addToFavorites,
+  removeFromFavorites,
+} from "../features/favorites/favoritesSlice";
 
 function Product({ id, imageURLS, name, price, brand, product }) {
   const { cartItems } = useSelector((store) => store.cart);
+  const { favorites } = useSelector((store) => store.favorites);
+
   const dispatch = useDispatch();
 
   const cartItem = cartItems.find((item) => item.id === id);
+  const favoriteItem = favorites.find((item) => item.id === id);
 
   return (
     <div
@@ -21,8 +28,17 @@ function Product({ id, imageURLS, name, price, brand, product }) {
       />
       <div className="absolute top-0 right-0 mt-3 mr-3">
         <div className="flex items-center">
-          <button className="mx-1">
-            <HeartIcon className="h-7" />
+          <button
+            className="mx-1"
+            onClick={() => {
+              if (favoriteItem) {
+                dispatch(removeFromFavorites(id));
+                return;
+              }
+              dispatch(addToFavorites(product));
+            }}
+          >
+            <HeartIcon className={favoriteItem ? `h-7 fill-red-500` : `h-7`} />
           </button>
           <button className="mx-1">
             <ShoppingCartIcon

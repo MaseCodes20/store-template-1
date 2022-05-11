@@ -11,9 +11,6 @@ function WebMenu() {
         <nav className="flex justify-center items-center">
           <CleatsMenu />
           <EquipmentsMenu />
-          <button className="mx-2" onClick={() => router.push("/favorites")}>
-            favorites
-          </button>
           <button className="mx-2" onClick={() => router.push("/")}>
             About
           </button>
