@@ -9,6 +9,7 @@ import MobileMenu from "./menu/MobileMenu";
 
 function Header() {
   const { cartItems, quantity } = useSelector((store) => store.cart);
+  const { favorites } = useSelector((store) => store.favorites);
   const dispatch = useDispatch();
   const router = useRouter();
 
@@ -30,8 +31,19 @@ function Header() {
               <UserIcon className="h-7" />
             </button>
 
-            <button className="mx-4" onClick={() => router.push("/favorites")}>
-              <HeartIcon className="h-7" />
+            <button
+              className="relative mx-4"
+              onClick={() => router.push("/favorites")}
+            >
+              {favorites.length >= 1 && (
+                <p className="centered text-xs text-white font-bold">
+                  {favorites.length}
+                </p>
+              )}
+
+              <HeartIcon
+                className={favorites.length >= 1 ? `h-7 fill-black` : `h-7`}
+              />
             </button>
 
             <button
