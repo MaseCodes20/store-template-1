@@ -1,7 +1,8 @@
 import React from "react";
 import { HeartIcon, ShoppingCartIcon } from "@heroicons/react/outline";
+import { MinusCircleIcon, PlusCircleIcon } from "@heroicons/react/solid";
 import { useDispatch, useSelector } from "react-redux";
-import { addItem } from "../features/cart/cartSlice";
+import { addItem, removeItem } from "../features/cart/cartSlice";
 import {
   addToFavorites,
   removeFromFavorites,
@@ -40,15 +41,24 @@ function Product({ id, imageURLS, name, price, brand, product }) {
           >
             <HeartIcon className={favoriteItem ? `h-7 fill-red-500` : `h-7`} />
           </button>
-          <button className="mx-1">
+          <button
+            className="relative mx-1"
+            onClick={() => {
+              if (cartItem) {
+                dispatch(removeItem(id));
+                return;
+              }
+              dispatch(addItem(product));
+            }}
+          >
+            {cartItem ? (
+              <MinusCircleIcon className="h-4 absolute text-gray-300 -top-1 -right-2" />
+            ) : (
+              <PlusCircleIcon className="h-4 absolute -top-1 -right-2" />
+            )}
+
             <ShoppingCartIcon
-              className="h-7"
-              onClick={() => {
-                if (cartItem) {
-                  return;
-                }
-                dispatch(addItem(product));
-              }}
+              className={cartItem ? `h-7 text-gray-300` : `h-7`}
             />
           </button>
         </div>
