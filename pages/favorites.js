@@ -3,6 +3,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import Header from "../components/Header";
 import Product from "../components/Product";
+import ProductModal from "../components/ProductModal";
 
 function Favorites() {
   const { favorites } = useSelector((store) => store.favorites);
@@ -15,6 +16,7 @@ function Favorites() {
       </Head>
       <Header />
 
+      <ProductModal />
       <h1 className="text-center font-bold text-5xl">Favorites</h1>
       {favorites.length >= 1 ? (
         <div className="productsGrid">

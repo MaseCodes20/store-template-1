@@ -2,6 +2,7 @@ import Head from "next/head";
 import React from "react";
 import Header from "../components/Header";
 import Product from "../components/Product";
+import ProductModal from "../components/ProductModal";
 import gloves from "../products/gloves/soccerGloves.json";
 
 function Gloves() {
@@ -13,6 +14,8 @@ function Gloves() {
         <link rel="icon" href="/shop_106574.ico" />
       </Head>
       <Header />
+
+      <ProductModal />
       <div className="productsGrid">
         {gloves
           ?.sort((a, b) => b.price - a.price)

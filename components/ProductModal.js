@@ -2,6 +2,8 @@ import { XIcon } from "@heroicons/react/solid";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { closeProductDetails } from "../features/modal/productModalSlice";
+import FavoritesButton from "./FavoritesButton";
+import ShoppingCartButton from "./ShoppingCartButton";
 
 function ProductModal() {
   const { isOpen, product } = useSelector((store) => store.productModal);
@@ -25,12 +27,18 @@ function ProductModal() {
 
               return (
                 <div key={id} className="relative max-h-screen">
-                  <button
-                    className="absolute top-0 right-0 m-1 md:m-2"
-                    onClick={() => dispatch(closeProductDetails(id))}
-                  >
-                    <XIcon className="h-7" />
-                  </button>
+                  <div className="absolute top-0 right-0 m-1 md:m-2">
+                    <div className="flex justify-between items-center">
+                      <FavoritesButton id={id} product={item} />
+                      <ShoppingCartButton id={id} product={item} />
+                      <button
+                        onClick={() => dispatch(closeProductDetails(id))}
+                        className="mx-1"
+                      >
+                        <XIcon className="h-9" />
+                      </button>
+                    </div>
+                  </div>
 
                   <div className="flex justify-center items-center p-2">
                     <h1>{brand}|</h1>
@@ -64,9 +72,12 @@ function ProductModal() {
                       specifications
                     </h1>
                     <ul className="grid grid-cols-2 gap-1">
-                      {specifications.map((specification) => {
+                      {specifications.map((specification, index) => {
                         return (
-                          <li className="max-w-[300px] border-2 border-black p-2 text-xs md:text-base">
+                          <li
+                            key={index}
+                            className="max-w-[300px] border-2 border-black p-2 text-xs md:text-base"
+                          >
                             {specification}
                           </li>
                         );
