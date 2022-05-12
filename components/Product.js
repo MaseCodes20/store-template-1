@@ -1,22 +1,11 @@
 import React from "react";
-import { HeartIcon, ShoppingCartIcon } from "@heroicons/react/outline";
-import { MinusCircleIcon, PlusCircleIcon } from "@heroicons/react/solid";
-import { useDispatch, useSelector } from "react-redux";
-import { addItem, removeItem } from "../features/cart/cartSlice";
-import {
-  addToFavorites,
-  removeFromFavorites,
-} from "../features/favorites/favoritesSlice";
+import { useDispatch } from "react-redux";
 import { openProductDetails } from "../features/modal/productModalSlice";
+import ShoppingCartButton from "./ShoppingCartButton";
+import FavoritesButton from "./FavoritesButton";
 
 function Product({ id, imageURLS, name, price, brand, product }) {
-  const { cartItems } = useSelector((store) => store.cart);
-  const { favorites } = useSelector((store) => store.favorites);
-
   const dispatch = useDispatch();
-
-  const cartItem = cartItems.find((item) => item.id === id);
-  const favoriteItem = favorites.find((item) => item.id === id);
 
   return (
     <div
@@ -31,38 +20,9 @@ function Product({ id, imageURLS, name, price, brand, product }) {
       />
       <div className="absolute top-0 right-0 mt-3 mr-3">
         <div className="flex items-center">
-          <button
-            className="mx-1"
-            onClick={() => {
-              if (favoriteItem) {
-                dispatch(removeFromFavorites(id));
-                return;
-              }
-              dispatch(addToFavorites(product));
-            }}
-          >
-            <HeartIcon className={favoriteItem ? `h-7 fill-red-500` : `h-7`} />
-          </button>
-          <button
-            className="relative mx-1"
-            onClick={() => {
-              if (cartItem) {
-                dispatch(removeItem(id));
-                return;
-              }
-              dispatch(addItem(product));
-            }}
-          >
-            {cartItem ? (
-              <MinusCircleIcon className="h-4 absolute text-gray-300 -top-1 -right-2" />
-            ) : (
-              <PlusCircleIcon className="h-4 absolute -top-1 -right-2" />
-            )}
+          <FavoritesButton id={id} product={product} />
 
-            <ShoppingCartIcon
-              className={cartItem ? `h-7 text-gray-300` : `h-7`}
-            />
-          </button>
+          <ShoppingCartButton id={id} product={product} />
         </div>
       </div>
 

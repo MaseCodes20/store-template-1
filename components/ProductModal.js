@@ -41,7 +41,7 @@ function ProductModal() {
                     <img
                       src={imageURLS[0]}
                       alt={name}
-                      className="max-h-[300px] max-w-[300px] mx-auto"
+                      className="max-h-[200px] max-w-[200px] md:max-h-[300px] md:max-w-[300px] mx-auto"
                     />
 
                     <div className="max-w-[300px] m-2 mx-auto">
