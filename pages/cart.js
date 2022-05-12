@@ -33,8 +33,8 @@ function Cart() {
       {/* <CartContainer /> */}
       {isOpen && <ClearCartModal />}
 
-      <div className="mx-auto mt-4">
-        <div className="relative mx-auto border-2 border-black p-2 rounded-md max-w-[600px] min-h-[560px]">
+      <div className="mx-auto my-4">
+        <div className="relative mx-auto md:border-2 border-black p-2 rounded-md max-w-[600px] min-h-[560px]">
           <div className="text-center text-2xl font-bold">
             <h1>YOUR BAG</h1>
           </div>
@@ -103,7 +103,7 @@ function Cart() {
             </div>
 
             <div className="flex justify-between">
-              <div className="mx-auto w-fit text-2xl mb-2">
+              <div className="mx-auto w-fit md:text-2xl mb-2">
                 <button
                   onClick={() => dispatch(openModal())}
                   aria-label="Clear cart button"
@@ -112,7 +112,7 @@ function Cart() {
                   Clear cart
                 </button>
               </div>
-              <div className="mx-auto w-fit text-2xl mb-2">
+              <div className="mx-auto w-fit md:text-2xl mb-2">
                 <button
                   aria-label="Proceed to checkout button"
                   className="border-2 border-blue-500 p-2 uppercase text-blue-500"

@@ -27,22 +27,24 @@ function ProductModal() {
 
               return (
                 <div key={id} className="relative max-h-screen">
-                  <div className="absolute top-0 right-0 m-1 md:m-2">
-                    <div className="flex justify-between items-center">
-                      <FavoritesButton id={id} product={item} />
-                      <ShoppingCartButton id={id} product={item} />
-                      <button
-                        onClick={() => dispatch(closeProductDetails(id))}
-                        className="mx-1"
-                      >
-                        <XIcon className="h-9" />
-                      </button>
+                  <div className="flex justify-between items-center">
+                    <div className="flex-1">
+                      <div className="flex items-center p-2 md:p-3">
+                        <h1>{brand}|</h1>
+                        <h1 className="font-bold truncate w-[180px] md:w-full">
+                          {name}
+                        </h1>
+                      </div>
                     </div>
-                  </div>
 
-                  <div className="flex justify-center items-center p-2">
-                    <h1>{brand}|</h1>
-                    <h1 className="text-center font-bold">{name}</h1>
+                    <FavoritesButton id={id} product={item} />
+                    <ShoppingCartButton id={id} product={item} />
+                    <button
+                      onClick={() => dispatch(closeProductDetails(id))}
+                      className="mx-1"
+                    >
+                      <XIcon className="h-9" />
+                    </button>
                   </div>
 
                   <div className="md:flex items-center mx-auto m-2">
@@ -54,11 +56,13 @@ function ProductModal() {
 
                     <div className="max-w-[300px] m-2 mx-auto">
                       <h1 className="text-center font-semibold">description</h1>
-                      <p className="my-2 text-xs md:text-base">{description}</p>
+                      <p className="my-2 mx-3 text-xs md:text-base">
+                        {description}
+                      </p>
 
                       <div className="flex justify-center items-center">
                         <div>
-                          <h1>Price:</h1>
+                          <h1 className="font-semibold">Price:</h1>
                         </div>
                         <div>
                           <p className="mx-2">${price}</p>
