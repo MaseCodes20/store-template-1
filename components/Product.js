@@ -29,7 +29,7 @@ function Product({ id, imageURLS, name, price, brand, product }) {
       <div className="absolute bottom-0 right-0 left-0 bg-white rounded-b-md">
         <div className="mx-4 mb-4">
           <h1>{brand}</h1>
-          <h1 className="font-bold">{name}</h1>
+          <h1 className="font-bold max-w-[200px] truncate">{name}</h1>
           <p className="font-semibold rounded-full">${price}</p>
         </div>
       </div>
