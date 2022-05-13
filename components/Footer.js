@@ -27,7 +27,6 @@ function Footer() {
           target="_blank"
           rel="noreferrer"
           className="mx-3"
-          aria-label="Github button"
         >
           <div className="iconContainer">
             <Image
@@ -44,7 +43,6 @@ function Footer() {
           target="_blank"
           rel="noreferrer"
           className="mr-1 text-white"
-          aria-aria-label="LinkedIn button"
         >
           <div className="iconContainer">
             <Image
@@ -56,11 +54,7 @@ function Footer() {
           </div>
         </a>
 
-        <a
-          href="mailto:todd.k.mason@gmail.com"
-          className="ml-1"
-          aria-label="Email button"
-        >
+        <a href="mailto:todd.k.mason@gmail.com" className="ml-1">
           <MailIcon className="h-8 text-black" />
         </a>
       </div>

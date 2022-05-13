@@ -42,7 +42,7 @@ function Favorites() {
         </div>
       )}
 
-      {favorites.length >= 8 ? (
+      {favorites.length >= 5 ? (
         <Footer />
       ) : (
         <div className="text-5xl absolute bottom-0 right-0 left-0">
