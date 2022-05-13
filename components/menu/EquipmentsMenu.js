@@ -42,7 +42,7 @@ function EquipmentsMenu() {
                   onClick={() => router.push("/shinguards")}
                 >
                   <h2 className="flex-1 text-right md:text-center">
-                    SHINGUARDS
+                    SHIN GUARDS
                   </h2>
                 </a>
               )}

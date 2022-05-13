@@ -11,6 +11,7 @@ import {
   calculateTotals,
 } from "../features/cart/cartSlice";
 import { openModal } from "../features/modal/modalSlice";
+import Footer from "../components/Footer";
 
 function Cart() {
   const { cartItems, total } = useSelector((store) => store.cart);
@@ -124,6 +125,8 @@ function Cart() {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

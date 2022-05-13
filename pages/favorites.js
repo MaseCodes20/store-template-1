@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import { useSelector } from "react-redux";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Product from "../components/Product";
 import ProductModal from "../components/ProductModal";
@@ -38,6 +39,14 @@ function Favorites() {
       ) : (
         <div className="centered font-semibold">
           <p>No item added to favorites.</p>
+        </div>
+      )}
+
+      {favorites.length >= 8 ? (
+        <Footer />
+      ) : (
+        <div className="text-5xl absolute bottom-0 right-0 left-0">
+          <Footer />
         </div>
       )}
     </div>

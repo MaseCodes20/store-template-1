@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SaleBar from "../components/SaleBar";
 
@@ -101,6 +102,8 @@ export default function Home() {
           className="w-full"
         />
       </div>
+
+      <Footer />
     </div>
   );
 }
