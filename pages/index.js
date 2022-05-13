@@ -19,6 +19,7 @@ export default function Home() {
         <img
           src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/1910f3f8-447d-4893-8968-fe46a4f8fd18/nike-soccer.jpg"
           alt="Sophia's first touch"
+          className="mx-auto"
         />
       </div>
 
@@ -97,7 +98,7 @@ export default function Home() {
         <img
           src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_49/3129726/191202-megan-rapinoe-ac-451p.jpg"
           alt="Megan Rapinoe playing soccer"
-          className="w-full max-h-[750px]"
+          className="w-full"
         />
       </div>
     </div>

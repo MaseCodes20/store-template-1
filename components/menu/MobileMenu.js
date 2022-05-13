@@ -29,11 +29,55 @@ function MobileMenu() {
         <Menu.Items className="absolute left-0 w-full shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none">
           <div>
             <Menu.Item>
-              <CleatsMenu />
+              {({ active }) => (
+                <a
+                  className={`flex justify-end items-center px-5 py-2 cursor-pointer ${
+                    active && "bg-pink-500 text-white"
+                  }`}
+                  onClick={() => router.push("/cleats")}
+                >
+                  <h1>Cleats</h1>
+                </a>
+              )}
             </Menu.Item>
 
             <Menu.Item>
-              <EquipmentsMenu />
+              {({ active }) => (
+                <a
+                  className={`flex justify-end items-center px-5 py-2 cursor-pointer ${
+                    active && "bg-pink-500 text-white"
+                  }`}
+                  onClick={() => router.push("/balls")}
+                >
+                  <h1>Balls</h1>
+                </a>
+              )}
+            </Menu.Item>
+
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  className={`flex justify-end items-center px-5 py-2 cursor-pointer ${
+                    active && "bg-pink-500 text-white"
+                  }`}
+                  onClick={() => router.push("/shinguards")}
+                >
+                  <h1>Shin guards</h1>
+                </a>
+              )}
+            </Menu.Item>
+
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  className={`flex justify-end items-center px-5 py-2 cursor-pointer ${
+                    active && "bg-pink-500 text-white"
+                  }`}
+                  onClick={() => router.push("/gloves")}
+                >
+                  <h1>Gloves</h1>
+                </a>
+              )}
             </Menu.Item>
 
             <Menu.Item>

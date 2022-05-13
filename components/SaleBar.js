@@ -6,7 +6,7 @@ function SaleBar() {
   useEffect(() => {
     setTimeout(() => {
       setSwitchDisplay(!switchDisplay);
-    }, 7000);
+    }, 5000);
   }, [switchDisplay]);
 
   return (
