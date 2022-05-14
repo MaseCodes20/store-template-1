@@ -12,8 +12,7 @@ function Footer() {
           <p>All rights reserved.</p>
           <div className="relative h-[16px] w-[16px] ml-1">
             <Image
-              src="/copyrightlogo4.png"
-              className="mix-blend-difference"
+              src="/copyrightlogo.png"
               alt="copyright logo"
               layout="fill"
               objectFit="contain"
