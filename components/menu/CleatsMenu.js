@@ -7,7 +7,9 @@ function CleatsMenu() {
   return (
     <Menu as="div" className="mx-2">
       <Menu.Button className="w-full">
-        <h2 className="flex justify-end items-center mx-3 my-2">Cleats</h2>
+        <h2 className="flex justify-end items-center text-black mx-3 my-2">
+          Cleats
+        </h2>
       </Menu.Button>
 
       <Transition
@@ -19,17 +21,17 @@ function CleatsMenu() {
         leaveFrom="transform opacity-100 translateY(0%)"
         leaveTo="transform opacity-0 translateY(-10em)"
       >
-        <Menu.Items className="absolute left-0 right-0 shadow-md bg-white  divide-y divide-gray-100 focus:outline-none">
+        <Menu.Items className="absolute flex justify-center left-0 right-0 shadow-md bg-white divide-y divide-gray-100 focus:outline-none">
           <div>
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`flex items-center px-4 py-2 cursor-pointer ${
-                    active && "bg-gray-300 text-white"
+                  className={`flex items-center text-gray-500 md:w-[374px] px-4 py-2 cursor-pointer ${
+                    active && "bg-white hover:text-black"
                   }`}
                   onClick={() => router.push("/cleats/firmground")}
                 >
-                  <h2 className="flex-1 text-right md:text-center">
+                  <h2 className={`flex-1 text-right md:text-left`}>
                     FIRM GROUND
                   </h2>
                 </a>
@@ -38,24 +40,24 @@ function CleatsMenu() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`flex items-center px-4 py-2 cursor-pointer ${
-                    active && "bg-gray-300 text-white"
+                  className={`flex items-center text-gray-500 px-4 py-2 cursor-pointer ${
+                    active && "bg-white hover:text-black"
                   }`}
                   onClick={() => router.push("/cleats/indoor")}
                 >
-                  <h2 className="flex-1 text-right md:text-center">INDOOR</h2>
+                  <h2 className="flex-1 text-right md:text-left">INDOOR</h2>
                 </a>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`flex items-center px-4 py-2 cursor-pointer ${
-                    active && "bg-gray-300 text-white"
+                  className={`flex items-center text-gray-500 px-4 py-2 cursor-pointer ${
+                    active && "bg-white hover:text-black"
                   }`}
                   onClick={() => router.push("/cleats")}
                 >
-                  <h2 className="flex-1 text-right md:text-center">ALL</h2>
+                  <h2 className="flex-1 text-right md:text-left">ALL</h2>
                 </a>
               )}
             </Menu.Item>
