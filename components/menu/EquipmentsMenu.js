@@ -24,18 +24,6 @@ function EquipmentsMenu() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`flex items-center text-gray-500 md:w-[210px] px-4 py-2 cursor-pointer ${
-                    active && "bg-white hover:text-black"
-                  }`}
-                  onClick={() => router.push("/balls")}
-                >
-                  <h2 className="flex-1 text-right md:text-left">BALLS</h2>
-                </a>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
                   className={`flex items-center text-gray-500 px-4 py-2 cursor-pointer ${
                     active && "bg-white hover:text-black"
                   }`}
@@ -47,6 +35,7 @@ function EquipmentsMenu() {
                 </a>
               )}
             </Menu.Item>
+
             <Menu.Item>
               {({ active }) => (
                 <a
@@ -56,6 +45,19 @@ function EquipmentsMenu() {
                   onClick={() => router.push("/gloves")}
                 >
                   <h2 className="flex-1 text-right md:text-left">GLOVES</h2>
+                </a>
+              )}
+            </Menu.Item>
+
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  className={`flex items-center text-gray-500 md:w-[210px] px-4 py-2 cursor-pointer ${
+                    active && "bg-white hover:text-black"
+                  }`}
+                  onClick={() => router.push("/balls")}
+                >
+                  <h2 className="flex-1 text-right md:text-left">BALLS</h2>
                 </a>
               )}
             </Menu.Item>
