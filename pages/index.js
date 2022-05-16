@@ -24,7 +24,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="h-screen lg:flex justify-between items-center my-20 px-10">
+      <div className="md:h-screen lg:flex justify-between items-center my-20 px-10">
         <div className="">
           <a
             onClick={() => router.push("/cleats")}
@@ -46,7 +46,7 @@ export default function Home() {
           </button>
         </div>
 
-        <div className="">
+        <div>
           <a
             onClick={() => router.push("/shinguards")}
             className="cursor-pointer"
