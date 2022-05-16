@@ -20,8 +20,11 @@ function Header() {
   return (
     <header className="sticky top-0 z-10 bg-white">
       <div className="flex justify-center items-center h-10">
-        <button className="mx-4" onClick={() => router.push("/")}>
-          <h1>Logo</h1>
+        <button
+          className="mx-4 w-[160px] font-bold"
+          onClick={() => router.push("/")}
+        >
+          <h1>Soccer Store</h1>
         </button>
         <WebMenu />
         {/* <SearchBar /> */}
