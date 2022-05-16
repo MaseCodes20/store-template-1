@@ -26,7 +26,7 @@ function CleatsMenu() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`flex items-center text-gray-500 md:w-[374px] px-4 py-2 cursor-pointer ${
+                  className={`flex items-center text-gray-500 md:w-[460px] px-4 py-2 cursor-pointer ${
                     active && "bg-white hover:text-black"
                   }`}
                   onClick={() => router.push("/cleats/firmground")}

@@ -86,6 +86,19 @@ function MobileMenu() {
                   className={`flex justify-end items-center px-5 py-2 cursor-pointer ${
                     active && "bg-pink-500 text-white"
                   }`}
+                  onClick={() => router.push("/clothing")}
+                >
+                  <h1>Clothing</h1>
+                </a>
+              )}
+            </Menu.Item>
+
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  className={`flex justify-end items-center px-5 py-2 cursor-pointer ${
+                    active && "bg-pink-500 text-white"
+                  }`}
                   onClick={() => router.push("/about")}
                 >
                   <h1>About</h1>

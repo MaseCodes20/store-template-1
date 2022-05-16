@@ -52,7 +52,7 @@ function EquipmentsMenu() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`flex items-center text-gray-500 md:w-[210px] px-4 py-2 cursor-pointer ${
+                  className={`flex items-center text-gray-500 md:w-[296px] px-4 py-2 cursor-pointer ${
                     active && "bg-white hover:text-black"
                   }`}
                   onClick={() => router.push("/balls")}
