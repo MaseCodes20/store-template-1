@@ -1,4 +1,4 @@
-import { XIcon } from "@heroicons/react/solid";
+import { ChevronDoubleDownIcon, XIcon } from "@heroicons/react/solid";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { closeProductDetails } from "../features/modal/productModalSlice";
@@ -54,9 +54,18 @@ function ProductModal() {
                       className="max-h-[200px] max-w-[200px] md:max-h-[300px] md:max-w-[300px] mx-auto"
                     />
 
+                    <div className="hidden md:flex">
+                      {description.split(" ").length > 70 && (
+                        <div className="ml-3 text-gray-400">
+                          <p className="text-center text-sm mb-2">Scroll</p>
+                          <ChevronDoubleDownIcon className="h-7 mx-auto animate-bounce" />
+                        </div>
+                      )}
+                    </div>
+
                     <div className="max-w-[300px] m-2 mx-auto">
-                      <h1 className="text-center font-semibold">description</h1>
-                      <p className="my-2 mx-3 text-xs md:text-base">
+                      <h1 className="text-center font-semibold">Description</h1>
+                      <p className="my-2 mx-3 text-xs md:text-base md:h-[300px] scrollbar-hide overflow-x-scroll">
                         {description}
                       </p>
 
