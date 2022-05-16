@@ -24,8 +24,8 @@ export default function Home() {
         />
       </div>
 
-      <div className="md:h-screen lg:flex justify-between items-center my-20 px-10">
-        <div className="">
+      <div className="md:h-screen lg:flex justify-between items-center px-10 bg-slate-500/10">
+        <div className="pt-10 md:pt-0">
           <a
             onClick={() => router.push("/cleats")}
             className="cursor-pointer"
