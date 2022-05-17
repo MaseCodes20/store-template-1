@@ -21,7 +21,7 @@ function Header() {
     <header className="sticky top-0 z-10 bg-white">
       <div className="flex justify-center items-center h-10">
         <button
-          className="mx-4 w-[160px] font-bold"
+          className="mx-4 w-[160px] font-bold text-lg"
           onClick={() => router.push("/")}
         >
           <h1>Soccer Store</h1>

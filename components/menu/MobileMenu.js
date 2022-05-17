@@ -1,14 +1,12 @@
 import { Menu, Transition } from "@headlessui/react";
 import { MenuIcon } from "@heroicons/react/outline";
 import React, { Fragment } from "react";
-import CleatsMenu from "./CleatsMenu";
 import { useRouter } from "next/router";
-import EquipmentsMenu from "./EquipmentsMenu";
 
 function MobileMenu() {
   const router = useRouter();
   return (
-    <Menu as="div" className="mr-5 md:hidden">
+    <Menu as="div" className="mr-5 ml-4 md:hidden">
       <Menu.Button
         className="md:hidden flex justify-center items-center content-center"
         name="Menu button"
