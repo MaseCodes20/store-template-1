@@ -30,7 +30,7 @@ function EquipmentsMenu() {
                   onClick={() => router.push("/shinguards")}
                 >
                   <h2 className="flex-1 text-right md:text-left">
-                    SHIN GUARDS
+                    Shin guards
                   </h2>
                 </a>
               )}
@@ -44,7 +44,7 @@ function EquipmentsMenu() {
                   }`}
                   onClick={() => router.push("/gloves")}
                 >
-                  <h2 className="flex-1 text-right md:text-left">GLOVES</h2>
+                  <h2 className="flex-1 text-right md:text-left">Gloves</h2>
                 </a>
               )}
             </Menu.Item>
@@ -57,7 +57,7 @@ function EquipmentsMenu() {
                   }`}
                   onClick={() => router.push("/balls")}
                 >
-                  <h2 className="flex-1 text-right md:text-left">BALLS</h2>
+                  <h2 className="flex-1 text-right md:text-left">Balls</h2>
                 </a>
               )}
             </Menu.Item>

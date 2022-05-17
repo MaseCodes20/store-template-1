@@ -32,7 +32,7 @@ function CleatsMenu() {
                   onClick={() => router.push("/cleats/firmground")}
                 >
                   <h2 className={`flex-1 text-right md:text-left`}>
-                    FIRM GROUND
+                    Firm ground
                   </h2>
                 </a>
               )}
@@ -45,7 +45,7 @@ function CleatsMenu() {
                   }`}
                   onClick={() => router.push("/cleats/indoor")}
                 >
-                  <h2 className="flex-1 text-right md:text-left">INDOOR</h2>
+                  <h2 className="flex-1 text-right md:text-left">Indoor</h2>
                 </a>
               )}
             </Menu.Item>
@@ -57,7 +57,7 @@ function CleatsMenu() {
                   }`}
                   onClick={() => router.push("/cleats")}
                 >
-                  <h2 className="flex-1 text-right md:text-left">ALL</h2>
+                  <h2 className="flex-1 text-right md:text-left">All</h2>
                 </a>
               )}
             </Menu.Item>
