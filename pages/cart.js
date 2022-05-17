@@ -2,7 +2,7 @@ import Head from "next/head";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/outline";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import ClearCartModal from "../components/clearCartModal";
+import ClearCartModal from "../components/ClearCartModal";
 import Header from "../components/Header";
 import {
   increase,
@@ -21,7 +21,7 @@ function Cart() {
 
   useEffect(() => {
     dispatch(calculateTotals());
-  }, [cartItems]);
+  }, [cartItems, dispatch]);
 
   return (
     <div className="pageContainer">
