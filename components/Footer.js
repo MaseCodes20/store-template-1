@@ -6,7 +6,18 @@ function Footer() {
   return (
     <footer className="p-4 text-black bg-white bottom-0 w-full">
       <div className="text-center text-xs">
-        <p>Built and designed by Todd Mason</p>
+        <p>
+          Built and designed by {""}
+          <span>
+            <a
+              href="https://www.masecodes.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Todd Mason
+            </a>
+          </span>
+        </p>
 
         <div className="flex justify-center items-center mt-1">
           <p>All rights reserved.</p>
