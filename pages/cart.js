@@ -8,16 +8,17 @@ import Footer from "../components/Footer";
 import CartItem from "../components/cart/CartItem";
 import ClearCartButton from "../components/cart/ClearCartButton";
 import CheckoutButton from "../components/cart/CheckoutButton";
+import DisplayTotal from "../components/cart/DisplayTotal";
 
 function Cart() {
-  const { cartItems, total } = useSelector((store) => store.cart);
+  const { cartItems } = useSelector((store) => store.cart);
   const { isOpen } = useSelector((store) => store.modal);
 
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(calculateTotals());
-  }, [cartItems, dispatch]);
+  }, [dispatch]);
 
   return (
     <div className="pageContainer">
@@ -49,10 +50,7 @@ function Cart() {
 
           <hr className="h-[2px] w-[96%] mx-auto bg-black" />
           <div className="mt-3">
-            <div className="flex justify-between mx-3 mb-3 font-bold uppercase">
-              <p>total</p>
-              <p>${total}</p>
-            </div>
+            <DisplayTotal />
 
             <div className="flex justify-center items-center">
               <ClearCartButton />

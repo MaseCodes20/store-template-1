@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { UserIcon } from "@heroicons/react/outline";
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
