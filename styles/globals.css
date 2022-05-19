@@ -18,4 +18,7 @@
   .iconContainer {
     @apply relative h-[24px] w-[24px];
   }
+  .checkoutAndClearCartButton {
+    @apply mx-5 w-fit md:text-2xl mb-2;
+  }
 }

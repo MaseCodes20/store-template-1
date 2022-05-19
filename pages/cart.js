@@ -1,17 +1,13 @@
 import Head from "next/head";
-import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/outline";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ClearCartModal from "../components/ClearCartModal";
 import Header from "../components/Header";
-import {
-  increase,
-  decrease,
-  removeItem,
-  calculateTotals,
-} from "../features/cart/cartSlice";
-import { openModal } from "../features/modal/modalSlice";
+import { calculateTotals } from "../features/cart/cartSlice";
 import Footer from "../components/Footer";
+import CartItem from "../components/cart/CartItem";
+import ClearCartButton from "../components/cart/ClearCartButton";
+import CheckoutButton from "../components/cart/CheckoutButton";
 
 function Cart() {
   const { cartItems, total } = useSelector((store) => store.cart);
@@ -31,7 +27,6 @@ function Cart() {
         <link rel="icon" href="/shop_106574.ico" />
       </Head>
       <Header />
-      {/* <CartContainer /> */}
       {isOpen && <ClearCartModal />}
 
       <div className="mx-auto my-4">
@@ -47,52 +42,8 @@ function Cart() {
             )}
 
             {cartItems?.map((item) => {
-              const { id, imageURLS, name, price, quantity } = item;
-              return (
-                <div key={id} className="my-2 border-2 rounded-md bg-white">
-                  <div className="flex h-[100px] items-center">
-                    <img
-                      src={imageURLS[0]}
-                      alt={name}
-                      className="h-[100px] w-[100px] rounded-md"
-                    />
-                    <div className="flex-1 relative ml-5 h-fit">
-                      <div className="">
-                        <h1 className="font-bold">{name}</h1>
-                        <p>${price.toFixed()}</p>
-                      </div>
-
-                      <button
-                        onClick={() => dispatch(removeItem(id))}
-                        className="text-blue-900"
-                      >
-                        remove
-                      </button>
-                    </div>
-                    <div className="h-fit">
-                      <button onClick={() => dispatch(increase(id))}>
-                        <ChevronUpIcon className="h-7" />
-                      </button>
-
-                      <p className="text-center text-xl font-bold">
-                        {quantity}
-                      </p>
-
-                      <button
-                        onClick={() => {
-                          if (quantity === 1) {
-                            dispatch(removeItem(id));
-                            return;
-                          }
-                          dispatch(decrease(id));
-                        }}
-                      >
-                        <ChevronDownIcon className="h-7" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              );
+              const { id } = item;
+              return <CartItem key={id} item={item} />;
             })}
           </div>
 
@@ -103,24 +54,10 @@ function Cart() {
               <p>${total}</p>
             </div>
 
-            <div className="flex justify-between">
-              <div className="mx-auto w-fit md:text-2xl mb-2">
-                <button
-                  onClick={() => dispatch(openModal())}
-                  aria-label="Clear cart button"
-                  className="border-2 border-red-500 p-2 uppercase text-red-500"
-                >
-                  Clear cart
-                </button>
-              </div>
-              <div className="mx-auto w-fit md:text-2xl mb-2">
-                <button
-                  aria-label="Proceed to checkout button"
-                  className="border-2 border-blue-500 p-2 uppercase text-blue-500"
-                >
-                  Proceed to checkout
-                </button>
-              </div>
+            <div className="flex justify-center items-center">
+              <ClearCartButton />
+
+              <CheckoutButton />
             </div>
           </div>
         </div>

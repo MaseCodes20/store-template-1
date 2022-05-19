@@ -1,21 +1,28 @@
 import React from "react";
+import RemoveButton from "./RemoveButton";
+import UpAndDownButtons from "./UpAndDownButtons";
 
-function CartItem({ images, brand, name, price }) {
+function CartItem({ item }) {
+  const { id, imageURLS, name, price, quantity } = item;
+
   return (
-    <div className="flex justify-center">
-      <div className="h-[100px] w-[100px]">
+    <div className="my-2 border-2 rounded-md bg-white">
+      <div className="flex h-[100px] items-center">
         <img
-          src={images[0]}
+          src={imageURLS[0]}
           alt={name}
-          className="hit-full w-full rounded-md"
+          className="h-[100px] w-[100px] rounded-md"
         />
-      </div>
-      <div>
-        <h1>
-          {brand}
-          {name}
-        </h1>
-        <p>${price}</p>
+        <div className="flex-1 relative ml-5 h-fit">
+          <div className="">
+            <h1 className="font-bold">{name}</h1>
+            <p>${price.toFixed()}</p>
+          </div>
+
+          <RemoveButton id={id} />
+        </div>
+
+        <UpAndDownButtons id={id} quantity={quantity} />
       </div>
     </div>
   );
