@@ -22,7 +22,7 @@ function Header() {
       <div className="flex justify-center items-center h-10">
         <button
           className="mx-4 w-[160px] font-bold text-lg"
-          aria-label="home button"
+          aria-label="Home button"
           onClick={() => router.push("/")}
         >
           <h1>Soccer Store</h1>

@@ -13,6 +13,7 @@ function ShoppingCartButton({ id, product }) {
   return (
     <button
       className="relative mx-1"
+      aria-label="Cart Button"
       onClick={() => {
         if (cartItem) {
           dispatch(removeItem(id));

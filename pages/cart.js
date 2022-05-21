@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import ClearCartModal from "../components/ClearCartModal";
+import ClearCartModal from "../components/cart/ClearCartModal";
 import Header from "../components/Header";
 import { calculateTotals } from "../features/cart/cartSlice";
 import Footer from "../components/Footer";

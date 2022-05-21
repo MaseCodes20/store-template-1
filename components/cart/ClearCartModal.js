@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { clearCart } from "../features/cart/cartSlice";
-import { closeModal } from "../features/modal/modalSlice";
+import { clearCart } from "../../features/cart/cartSlice";
+import { closeModal } from "../../features/modal/modalSlice";
 
 function ClearCartModal() {
   const dispatch = useDispatch();
@@ -14,6 +14,7 @@ function ClearCartModal() {
           <div className="flex justify-between mt-5">
             <button
               className="border-2 border-blue-800 p-2 uppercase text-blue-800"
+              aria-label="Confirm button"
               onClick={() => {
                 dispatch(clearCart());
                 dispatch(closeModal());
@@ -23,6 +24,7 @@ function ClearCartModal() {
             </button>
             <button
               className="border-2 border-red-700 p-2 uppercase text-red-700"
+              aria-label="Cancel button"
               onClick={() => dispatch(closeModal())}
             >
               cancel

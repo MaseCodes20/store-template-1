@@ -15,6 +15,7 @@ function FavoritesButton({ id, product }) {
   return (
     <button
       className="mx-1"
+      aria-label="Favorite button"
       onClick={() => {
         if (favoriteItem) {
           dispatch(removeFromFavorites(id));
