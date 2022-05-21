@@ -26,7 +26,7 @@ export default function Home() {
 
       <div className="md:h-screen lg:flex justify-between items-center px-10 bg-slate-500/10">
         <div className="pt-10 md:pt-0">
-          <a
+          <div
             onClick={() => router.push("/cleats")}
             className="cursor-pointer"
             aria-label="Link to soccer cleats page"
@@ -36,7 +36,7 @@ export default function Home() {
               src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/8f35d730-665b-442b-b01c-f586b3928401/nike-soccer.jpg"
               alt="Soccer cleats"
             />
-          </a>
+          </div>
 
           <button
             onClick={() => router.push("/cleats")}
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
 
         <div>
-          <a
+          <div
             onClick={() => router.push("/shinguards")}
             className="cursor-pointer"
             aria-label="Link to shin guards page"
@@ -57,7 +57,7 @@ export default function Home() {
               src="https://strivechallenge.com/wp-content/uploads/2018/02/shinguard-1.jpg"
               alt="soccer shin guards"
             />
-          </a>
+          </div>
 
           <button
             onClick={() => router.push("/shinguards")}
@@ -68,7 +68,7 @@ export default function Home() {
         </div>
 
         <div className="">
-          <a
+          <div
             onClick={() => router.push("/balls")}
             className="cursor-pointer"
             aria-label="Link to balls page"
@@ -78,7 +78,7 @@ export default function Home() {
               src="https://athleticlift.com/wp-content/uploads/2019/05/soccer_ball_facts_005.jpg"
               alt="soccer ball"
             />
-          </a>
+          </div>
 
           <button
             onClick={() => router.push("/balls")}

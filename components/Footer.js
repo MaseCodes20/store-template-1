@@ -64,7 +64,11 @@ function Footer() {
           </div>
         </a>
 
-        <a href="mailto:todd.k.mason@gmail.com" className="ml-1">
+        <a
+          href="mailto:todd.k.mason@gmail.com"
+          aria-label="Email link"
+          className="ml-1"
+        >
           <MailIcon className="h-8 text-black" />
         </a>
       </div>

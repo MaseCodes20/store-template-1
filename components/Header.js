@@ -22,6 +22,7 @@ function Header() {
       <div className="flex justify-center items-center h-10">
         <button
           className="mx-4 w-[160px] font-bold text-lg"
+          aria-label="home button"
           onClick={() => router.push("/")}
         >
           <h1>Soccer Store</h1>
@@ -30,12 +31,13 @@ function Header() {
         {/* <SearchBar /> */}
         <div className="flex-1">
           <div className="flex justify-center items-center">
-            <button className="mx-4">
+            <button className="mx-4" aria-label="User button" disabled>
               <UserIcon className="h-7" />
             </button>
 
             <button
               className="relative mx-4"
+              aria-label="Favorites button"
               onClick={() => router.push("/favorites")}
             >
               {favorites.length >= 1 && (
@@ -51,6 +53,7 @@ function Header() {
 
             <button
               onClick={() => router.push("/cart")}
+              aria-label="Cart button"
               className="relative mx-4"
             >
               {quantity >= 1 && (
