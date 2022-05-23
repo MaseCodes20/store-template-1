@@ -169,5 +169,337 @@
     "id": "CK1870",
     "quantity": 1,
     "price": 18
+  },
+  {
+    "brand": "Nike",
+    "name": "FC Barcelona Strike",
+    "style": "Shorts",
+    "description": "These shorts have design details specifically tailored for soccer’s rising stars. A slim, streamlined fit ensures that nothing comes between you and the ball, and sweat-wicking fabric helps keep you cool and composed while fine-tuning your skills.",
+    "specifications": [
+      "100% polyester",
+      "Slim fit for a tailored feel",
+      "Machine wash",
+      "Color:  Black/Hyper Royal/Hyper Royal"
+    ],
+    "imageURLS": [
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/72d623b5-5201-4445-8b76-a84240dfc79b/fc-barcelona-strike-mens-dri-fit-knit-soccer-shorts-pGg75q.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/31fcbaf1-80cb-4b6a-9084-2950c34346c3/fc-barcelona-strike-mens-dri-fit-knit-soccer-shorts-pGg75q.png"
+    ],
+    "id": " DB6938014",
+    "quantity": 1,
+    "price": 50
+  },
+  {
+    "brand": "Nike",
+    "name": "Nike Dri-Fit Strike",
+    "style": "Shorts",
+    "description": "The Nike Dri-FIT Strike Shorts feature design details specifically tailored for soccer’s rising stars. A relaxed, easy fit works together with sweat-wicking fabric to help keep you cool and composed while fine-tuning your skills. This product is made with 100% recycled polyester fibers.",
+    "specifications": [
+      "100% polyester",
+      "Slim fit for a tailored feel",
+      "Machine wash",
+      "Color:  Dark Marina Blue/Chlorine Blue/Siren Red"
+    ],
+    "imageURLS": [
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a0b3f278-6e76-495d-add0-04aaaa0bdaf3/dri-fit-strike-mens-soccer-shorts-H3v2n9.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b37e83fa-c3a7-4d81-ba89-5efa51845805/dri-fit-strike-mens-soccer-shorts-H3v2n9.png"
+    ],
+    "id": "DV2857407",
+    "quantity": 1,
+    "price": 30
+  },
+  {
+    "brand": "Nike",
+    "name": "Nike Squad",
+    "style": "Socks",
+    "description": "The Nike Squad Crew Socks combine sweat-wicking fabric with targeted cushioning for high-performance comfort during competition.",
+    "specifications": [
+      "88% polyester/9% cotton/3% spandex",
+      "Machine wash",
+      "Color: Black/White"
+    ],
+    "imageURLS": [
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f947217c-ec82-44b8-acf5-c34ced6c3358/squad-crew-socks-VCwLjR.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d001857f-a087-45ce-8bd0-a5fbadeefa4d/squad-crew-socks-VCwLjR.png"
+    ],
+    "id": "SK0030010",
+    "quantity": 1,
+    "price": 14
+  },
+  {
+    "brand": "Nike",
+    "name": "Nike MatchFit",
+    "style": "Socks",
+    "description": "The Nike MatchFit Socks were crafted with comfort in mind. Sweat-wicking fabric helps keep feet dry, while a snug band and cushioning give you a supportive fit and feel during play.",
+    "specifications": [
+      "92% polyester/5% cotton/3% spandex",
+      "Left/right-specific design",
+      "Machine wash",
+      "Color: White/White/Black"
+    ],
+    "imageURLS": [
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2168a213-aff4-46d5-84ca-7e61a0b3bc0e/matchfit-soccer-knee-high-socks-7XqFdP.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/04265038-f828-43e3-87f4-119aa16c8920/matchfit-soccer-knee-high-socks-7XqFdP.png"
+    ],
+    "id": "CV1956100",
+    "quantity": 1,
+    "price": 18
+  },
+  {
+    "brand": "Nike",
+    "name": "Nike Dri-Fit Strike",
+    "style": "Top",
+    "description": "The Nike Dri-FIT Strike Top features design details specifically tailored for soccer’s rising stars. A slim, streamlined fit ensures that nothing comes between you and the ball. Sweat-wicking fabric helps keep you cool and composed while you fine tune your skills. This product is made with 100% recycled polyester fibers.",
+    "specifications": [
+      "100% polyester",
+      "Slim fit for a tailored feel",
+      "Machine Wash",
+      "Color: Dark Marina Blue/Chlorine Blue/Siren Red"
+    ],
+    "imageURLS": [
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b060c6b7-b8b7-4528-b9ff-8bd97ddabc95/dri-fit-strike-mens-soccer-top-SSbfv3.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/4c81ca04-21bf-492d-89ba-4f43dee45272/dri-fit-strike-mens-soccer-top-SSbfv3.png"
+    ],
+    "id": "DV2859407",
+    "quantity": 1,
+    "price": 28
+  },
+  {
+    "brand": "Nike",
+    "name": "Nike Dri-Fit Strike",
+    "style": "Top",
+    "description": "The Nike Dri-FIT Strike Top is made of stretchy, sweat-wicking fabric to help keep you dry and comfortable when the game heats up. This product is made with at least 50% recycled polyester fibers.",
+    "specifications": [
+      "100% polyester",
+      "Slim fit for a tailored feel",
+      "Machine wash",
+      "Color: Black/Anthracite/Total Orange/Total Orange"
+    ],
+    "imageURLS": [
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/509f9eea-c22e-43a8-ba3c-d9a1025e37d2/dri-fit-strike-mens-short-sleeve-soccer-top-qNpnGF.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ef318ab3-f818-42ac-971d-30e299f8f79c/dri-fit-strike-mens-short-sleeve-soccer-top-qNpnGF.png"
+    ],
+    "id": "CW5843013",
+    "quantity": 1,
+    "price": 27
+  },
+  {
+    "brand": "Puma",
+    "name": "FUBBALL '60s",
+    "style": "Top",
+    "description": "At PUMA we celebrate a legacy of sporting legends and our partnership kitting out those who make history. The PUMA Influence Pack is rooted in football excellence, and commemorates a lineage of iconic names and their most beloved moments that have helped shape the PUMA Soccer name. Our PUMA FUßBALL '60s Soccer Tee celebrates the inimitable styles of the '60s, with a bold geometric graphic and elements immortalising the most iconic players of the time.",
+    "specifications": [
+      "100% polyester",
+      "Ribbed crew neck",
+      "Wash and iron inside out",
+      "Color: Silver Pine / Fizzy Yellow /China Blue"
+    ],
+    "imageURLS": [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/657628/01/fnd/PNA/fmt/png",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/657628/01/bv/fnd/PNA/fmt/png"
+    ],
+    "id": "65762801",
+    "quantity": 1,
+    "price": 40
+  },
+  {
+    "brand": "Puma",
+    "name": "First Mile Manchert City Prematch Jersey",
+    "style": "Top",
+    "description": "Get your head in the game with the official Manchester City prematch collection – in pieces your favourite players wear to warm up on matchdays. This striking jersey is the perfect way to support the Citizens on the street, at the studio or in the stands. Feel fresh while you train with PUMA's signature dryCELL technology. Stand up for your team and your planet with materials produced in the PUMA x First Mile recycling initiative – turning plastic waste into products and empowering socially disadvantaged people.",
+    "specifications": [
+      "86% polyester, 14% elastane",
+      "Regular fit",
+      "Wash garment inside out",
+      "Color: Ocean Depths / Puma White"
+    ],
+    "imageURLS": [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/764504/05/fnd/PNA/fmt/png",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/764504/05/bv/fnd/PNA/fmt/png"
+    ],
+    "id": "76450405",
+    "quantity": 1,
+    "price": 55
+  },
+  {
+    "brand": "Puma",
+    "name": "Crew Strip Socks",
+    "style": "Socks",
+    "description": "Lightweight, breathable and cushioned in all the right places, our crew socks are the perfect style for colder days when you need a little extra coverage and a whole lot of comfort.",
+    "specifications": [
+      "75% Cotton 20% Polyamid 5% Spandex",
+      "Color: Black / White"
+    ],
+    "imageURLS": [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/858412/02/fnd/PNA/fmt/png"
+    ],
+    "id": "85841202",
+    "quantity": 1,
+    "price": 12
+  },
+  {
+    "brand": "Puma",
+    "name": "TMC Everyday Hussle Crew Socks",
+    "style": "Socks",
+    "description": "The PUMA x TMC Everyday Hussle collection was created to fit your comfort and lifestyle. This collection of timeless silhouettes features the PUMA x TMC treatment with classic colorways, premium details, and iconic co-branding. These socks come in a pack featuring two different classic designs.",
+    "specifications": ["PUMA x TMC logo at ankle", "Color: Red"],
+    "imageURLS": [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/858617/01/fnd/PNA/fmt/png"
+    ],
+    "id": "85861701",
+    "quantity": 1,
+    "price": 28
+  },
+  {
+    "brand": "Puma",
+    "name": "individualFINAL Training Soccer Shorts",
+    "style": "Shorts",
+    "description": "Introducing the next generation of PUMA Soccer: the individualFINAL collection. Designed for the highest level of performance, these shorts use lightweight, breathable, recycled fabrics combined with form-fitting cuts and dryCELL moisture-wicking technology to deliver the ultimate comfort and dominance on the pitch.",
+    "specifications": [
+      "100% polyester",
+      "Regular fit",
+      "Wash and iron inside out",
+      "Color: Puma Black / Neon Citrus"
+    ],
+    "imageURLS": [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/657952/45/mod01/fnd/PNA/fmt/png",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/657952/45/mod02/fnd/PNA/fmt/png"
+    ],
+    "id": "65795245",
+    "quantity": 1,
+    "price": 30
+  },
+  {
+    "brand": "Puma",
+    "name": "teamLIGA Training Soccer Shorts",
+    "style": "Shorts",
+    "description": "PUMA presents perfection on and off the pitch with our teamLIGA collection, a core collection for the style-minded athlete that enjoys the hard-fought battles on the pitch as much as the wins. Our teamLIGA Training Soccer Shorts 2 are the latest iteration of our elite training gear. Equipped with dryCELL technology and made with recycled materials, these shorts will keep you game-ready from head to toe.",
+    "specifications": [
+      "100% polyester",
+      "Regular fit",
+      "Wash and iron inside out",
+      "Color: Peacoat / Puma White"
+    ],
+    "imageURLS": [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/657667/06/fnd/PNA/fmt/png",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/657667/06/bv/fnd/PNA/fmt/png"
+    ],
+    "id": "65766706",
+    "quantity": 1,
+    "price": 25
+  },
+  {
+    "brand": "adidas",
+    "name": "Tiro Taining Shorts",
+    "style": "Shorts",
+    "description": "Feel good. Look good. Train better. These adidas soccer shorts are a classic Tiro style and made with the planet in mind. Moisture-absorbing AEROREADY keeps you dry on the training pitch, and zip pockets give you space for essentials.",
+    "specifications": [
+      "100% recycled polyester interlock",
+      "Regular fit",
+      "Moisture-absorbing",
+      "Color: Team Navy"
+    ],
+    "imageURLS": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/16955c24e051425ba8aeac5a01169b14_9366/Tiro_Training_Shorts_Blue_GH4471_21_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/419179e34ffc4319b668ac5a0116ce88_9366/Tiro_Training_Shorts_Blue_GH4471_23_hover_model.jpg"
+    ],
+    "id": "GH4471",
+    "quantity": 1,
+    "price": 35
+  },
+  {
+    "brand": "adidas",
+    "name": "Condivo 22 Training Shorts",
+    "style": "Shorts",
+    "description": "Created for top-level soccer, these adidas Condivo 22 training shorts are designed to keep you comfortable while you move. Moisture-wicking AEROREADY and mesh 3-Stripes team up so you stay focused through every session. Zip pockets give you somewhere to store your valuables while you concentrate on hitting your goals.",
+    "specifications": [
+      "100% recycled polyester interlock",
+      "Regular fit",
+      "Elastic waist with drawcord",
+      "Color: Black / White"
+    ],
+    "imageURLS": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/07d3b4c2069d4a1ca530ada100c5fec9_9366/Condivo_22_Training_Shorts_Black_H21259_21_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e47bccce42924f059a24ada100c60d6a_9366/Condivo_22_Training_Shorts_Black_H21259_23_hover_model.jpg"
+    ],
+    "id": "H21259",
+    "quantity": 1,
+    "price": 40
+  },
+  {
+    "brand": "adidas",
+    "name": "Condivo 22 Jersey",
+    "style": "Top",
+    "description": "Created for top-level soccer, this adidas Condivo 22 jersey is all about comfortable movement. Its ventilating mesh side panels are shaped and positioned with male athletes in mind. Working hard to wick moisture from your skin, AEROREADY ensures you're always ready for more.",
+    "specifications": [
+      "100% recycled polyester interlock",
+      "Slim fit",
+      "Moisture-absorbing AEROREADY",
+      "Color: Black / White"
+    ],
+    "imageURLS": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1dc126f3a2a3452592ccada100c5784a_9366/Condivo_22_Jersey_Black_H21254_21_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3677359b114c4850ac86ada100c58549_9366/Condivo_22_Jersey_Black_H21254_23_hover_model.jpg"
+    ],
+    "id": "H21254",
+    "quantity": 1,
+    "price": 45
+  },
+  {
+    "brand": "adidas",
+    "name": "Entrada 22 Graphic Jersey",
+    "style": "Top",
+    "description": "For your team. For your planet. Part of the Entrada 22 range, this adidas jersey puts a new slant on a classic soccer look. Halfway between vertical stripes and horizontal hoops, its diagonal design will keep your teammates standing out on the field. Moisture-wicking AEROREADY ensures your performance matches your appearance.",
+    "specifications": [
+      "100% recycled polyester interlock",
+      "Slim fit",
+      "V-neck",
+      "Color: Team Power Red 2 / Burgundy"
+    ],
+    "imageURLS": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3a2467936b59477bb819add701593b3c_9366/Entrada_22_Graphic_Jersey_Red_HB0572_21_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c89a57a09dbf4e8eabddadd701594bf5_9366/Entrada_22_Graphic_Jersey_Red_HB0572_23_hover_model.jpg"
+    ],
+    "id": "HB0572",
+    "quantity": 1,
+    "price": 25
+  },
+  {
+    "brand": "adidas",
+    "name": "3-Stripes Hoop OTC Socks",
+    "style": "Socks",
+    "description": "Ready for kickoff. These knee-length soccer socks keep you dry on the field with soft, moisture-absorbing fabric. 3-Stripes around the calves show your love for adidas.",
+    "specifications": [
+      "80% nylon, 13% polyester, 6% natural latex rubber, 1% elastane",
+      "Over-the-calf length",
+      "Moisture-absorbing AEROREADY",
+      "Color: White / Black"
+    ],
+    "imageURLS": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f047d5760f5a451088c3aaf1013538a2_9366/3-Stripes_Hoop_OTC_Socks_White_CM5804_03_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/daf3ea044ce84392b6e5aaf101348ab2_9366/3-Stripes_Hoop_OTC_Socks_White_CM5804_41_detail_hover.jpg"
+    ],
+    "id": "CM5804",
+    "quantity": 1,
+    "price": 15
+  },
+  {
+    "brand": "adidas",
+    "name": "Utility OTC Socks",
+    "style": "Socks",
+    "description": "These supportive knee socks are ideal for any training activity. Made of stretchy fabric that sweeps sweat away from your skin, they include mesh inserts for targeted ventilation. The cushioned footbed offers extra comfort with every step.",
+    "specifications": [
+      "66% acrylic, 28% polyester, 4% natural latex rubber, 2% elastane",
+      "Over-the-calf length",
+      "Sweat-wicking Climalite fabric",
+      "Color: Dark Blue"
+    ],
+    "imageURLS": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8e7851a3c3b046b9aec8aa6a014f94a9_9366/Utility_OTC_Socks_Blue_BA1969_03_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/47d1a8981dfb43b3b3e6aa6a0147add1_9366/Utility_OTC_Socks_Blue_BA1969_41_detail_hover.jpg"
+    ],
+    "id": "BA1969",
+    "quantity": 1,
+    "price": 12
   }
 ]
