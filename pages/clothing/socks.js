@@ -1,15 +1,15 @@
-import React from "react";
 import Head from "next/head";
-import clothings from "../../products/clothing/soccerClothing.json";
+import React from "react";
 import Header from "../../components/Header";
-import ProductModal from "../../components/ProductModal";
 import Product from "../../components/Product";
+import ProductModal from "../../components/ProductModal";
+import clothings from "../../products/clothing/soccerClothing.json";
 
-function Shorts() {
+function Socks() {
   return (
     <div>
       <Head>
-        <title>Shorts</title>
+        <title>Socks</title>
         <meta name="description" content="Created by Masecodes" />
         <link rel="icon" href="/shop_106574.ico" />
       </Head>
@@ -18,10 +18,10 @@ function Shorts() {
 
       <div className="productsGrid">
         {clothings
-          ?.filter((item) => item.style === "Shorts")
+          ?.filter((item) => item.style === "Socks")
           .sort((a, b) => b.price - a.price)
-          .map((short) => {
-            const { id, imageURLS, brand, name, price } = short;
+          .map((sock) => {
+            const { id, imageURLS, brand, name, price } = sock;
             return (
               <Product
                 key={id}
@@ -30,7 +30,7 @@ function Shorts() {
                 name={name}
                 price={price}
                 id={id}
-                product={short}
+                product={sock}
               />
             );
           })}
@@ -39,4 +39,4 @@ function Shorts() {
   );
 }
 
-export default Shorts;
+export default Socks;
