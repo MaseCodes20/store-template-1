@@ -44,7 +44,7 @@ function CLothingMenu() {
                     className={`flex items-center text-gray-500 md:w-[120px]  px-4 py-2 cursor-pointer ${
                       active && "bg-white hover:text-black"
                     }`}
-                    // onClick={() => router.push("/clothing/shorts")}
+                    onClick={() => router.push("/clothing/shorts")}
                   >
                     <h2 className="flex-1 text-right md:text-left">Shorts</h2>
                   </a>
