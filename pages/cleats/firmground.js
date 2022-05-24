@@ -22,18 +22,8 @@ function Firmground() {
           ?.filter((cleat) => cleat.surface === "Firm ground")
           .sort((a, b) => b.price - a.price)
           .map((cleat) => {
-            const { id, imageURLS, name, price, brand } = cleat;
-            return (
-              <Product
-                key={id}
-                imageURLS={imageURLS}
-                brand={brand}
-                name={name}
-                price={price}
-                id={id}
-                product={cleat}
-              />
-            );
+            const { id } = cleat;
+            return <Product key={id} product={cleat} />;
           })}
       </div>
 

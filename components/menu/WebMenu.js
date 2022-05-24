@@ -2,7 +2,7 @@ import React from "react";
 import CleatsMenu from "./CleatsMenu";
 import EquipmentsMenu from "./EquipmentsMenu";
 import { useRouter } from "next/router";
-import CLothingMenu from "./CLothingMenu";
+import ClothingMenu from "./CLothingMenu";
 
 function WebMenu() {
   const router = useRouter();
@@ -12,7 +12,7 @@ function WebMenu() {
         <nav className="flex justify-center items-center">
           <CleatsMenu />
           <EquipmentsMenu />
-          <CLothingMenu />
+          <ClothingMenu />
           <button className="mx-3" onClick={() => router.push("/about")}>
             About
           </button>

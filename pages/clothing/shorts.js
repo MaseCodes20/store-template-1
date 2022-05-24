@@ -21,18 +21,8 @@ function Shorts() {
           ?.filter((item) => item.style === "Shorts")
           .sort((a, b) => b.price - a.price)
           .map((short) => {
-            const { id, imageURLS, brand, name, price } = short;
-            return (
-              <Product
-                key={id}
-                imageURLS={imageURLS}
-                brand={brand}
-                name={name}
-                price={price}
-                id={id}
-                product={short}
-              />
-            );
+            const { id } = short;
+            return <Product key={id} product={short} />;
           })}
       </div>
     </div>

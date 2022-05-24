@@ -21,18 +21,8 @@ function Socks() {
           ?.filter((item) => item.style === "Socks")
           .sort((a, b) => b.price - a.price)
           .map((sock) => {
-            const { id, imageURLS, brand, name, price } = sock;
-            return (
-              <Product
-                key={id}
-                imageURLS={imageURLS}
-                brand={brand}
-                name={name}
-                price={price}
-                id={id}
-                product={sock}
-              />
-            );
+            const { id } = sock;
+            return <Product key={id} product={sock} />;
           })}
       </div>
     </div>

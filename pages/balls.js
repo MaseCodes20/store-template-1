@@ -21,18 +21,8 @@ function Balls() {
         {balls
           ?.sort((a, b) => b.price - a.price)
           .map((ball) => {
-            const { id, imageURLS, name, price, brand } = ball;
-            return (
-              <Product
-                key={id}
-                imageURLS={imageURLS}
-                brand={brand}
-                name={name}
-                price={price}
-                id={id}
-                product={ball}
-              />
-            );
+            const { id } = ball;
+            return <Product key={id} product={ball} />;
           })}
       </div>
 

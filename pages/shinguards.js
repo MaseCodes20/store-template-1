@@ -21,18 +21,8 @@ function Shinguards() {
         {shinGuards
           ?.sort((a, b) => b.price - a.price)
           .map((shinGuard) => {
-            const { id, imageURLS, name, price, brand } = shinGuard;
-            return (
-              <Product
-                key={id}
-                imageURLS={imageURLS}
-                brand={brand}
-                name={name}
-                price={price}
-                id={id}
-                product={shinGuard}
-              />
-            );
+            const { id } = shinGuard;
+            return <Product key={id} product={shinGuard} />;
           })}
       </div>
 

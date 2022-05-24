@@ -22,18 +22,8 @@ function Favorites() {
       {favorites.length >= 1 ? (
         <div className="productsGrid">
           {favorites.map((item) => {
-            const { id, imageURLS, brand, name, price } = item;
-            return (
-              <Product
-                key={id}
-                imageURLS={imageURLS}
-                brand={brand}
-                name={name}
-                price={price}
-                id={id}
-                product={item}
-              />
-            );
+            const { id } = item;
+            return <Product key={id} product={item} />;
           })}
         </div>
       ) : (

@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import React, { Fragment } from "react";
 
-function CLothingMenu() {
+function ClothingMenu() {
   const router = useRouter();
   return (
     <Menu as="div" className="mx-3">
@@ -87,4 +87,4 @@ function CLothingMenu() {
   );
 }
 
-export default CLothingMenu;
+export default ClothingMenu;

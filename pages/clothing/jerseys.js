@@ -22,18 +22,8 @@ function Jerseys() {
           ?.filter((item) => item.style === "Top")
           .sort((a, b) => b.price - a.price)
           .map((jersey) => {
-            const { id, imageURLS, brand, name, price } = jersey;
-            return (
-              <Product
-                key={id}
-                imageURLS={imageURLS}
-                brand={brand}
-                name={name}
-                price={price}
-                id={id}
-                product={jersey}
-              />
-            );
+            const { id } = jersey;
+            return <Product key={id} product={jersey} />;
           })}
       </div>
 

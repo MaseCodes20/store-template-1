@@ -4,9 +4,10 @@ import { openProductDetails } from "../features/modal/productModalSlice";
 import ShoppingCartButton from "./ShoppingCartButton";
 import FavoritesButton from "./FavoritesButton";
 
-function Product({ id, imageURLS, name, price, brand, product }) {
+function Product({ product }) {
   const dispatch = useDispatch();
 
+  const { id, imageURLS, name, price, brand } = product;
   return (
     <div
       key={id}

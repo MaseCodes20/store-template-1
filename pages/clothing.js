@@ -20,18 +20,8 @@ function Clothing() {
         {clothings
           ?.sort((a, b) => b.price - a.price)
           .map((clothing) => {
-            const { id, imageURLS, name, price, brand } = clothing;
-            return (
-              <Product
-                key={id}
-                imageURLS={imageURLS}
-                brand={brand}
-                name={name}
-                price={price}
-                id={id}
-                product={clothing}
-              />
-            );
+            const { id } = clothing;
+            return <Product key={id} product={clothing} />;
           })}
       </div>
 

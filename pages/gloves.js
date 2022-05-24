@@ -21,18 +21,8 @@ function Gloves() {
         {gloves
           ?.sort((a, b) => b.price - a.price)
           .map((glove) => {
-            const { id, imageURLS, name, price, brand } = glove;
-            return (
-              <Product
-                key={id}
-                imageURLS={imageURLS}
-                brand={brand}
-                name={name}
-                price={price}
-                id={id}
-                product={glove}
-              />
-            );
+            const { id } = glove;
+            return <Product key={id} product={glove} />;
           })}
       </div>
 
