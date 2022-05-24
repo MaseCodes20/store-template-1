@@ -7,9 +7,7 @@ function CleatsMenu() {
   return (
     <Menu as="div" className="mx-2">
       <Menu.Button className="w-full">
-        <h2 className="flex justify-end items-center text-black mx-3 my-2">
-          Cleats
-        </h2>
+        <h2 className="menuTitle">Cleats</h2>
       </Menu.Button>
 
       <Transition
@@ -21,43 +19,37 @@ function CleatsMenu() {
         leaveFrom="transform opacity-100 translateY(0%)"
         leaveTo="transform opacity-0 translateY(-10em)"
       >
-        <Menu.Items className="absolute flex justify-center left-0 right-0 shadow-md bg-white divide-y divide-gray-100 focus:outline-none">
+        <Menu.Items className="itemsMenuContainer">
           <div>
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`flex items-center text-gray-500 md:w-[374px] px-4 py-2 cursor-pointer ${
-                    active && "bg-white hover:text-black"
+                  className={`menuItemLink md:w-[374px] ${
+                    active && "menuItemLinkActive"
                   }`}
                   onClick={() => router.push("/cleats/firmground")}
                 >
-                  <h2 className={`flex-1 text-right md:text-left`}>
-                    Firm ground
-                  </h2>
+                  <h2 className={`menuItemTitle`}>Firm ground</h2>
                 </a>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`flex items-center text-gray-500 px-4 py-2 cursor-pointer ${
-                    active && "bg-white hover:text-black"
-                  }`}
+                  className={`menuItemLink ${active && "menuItemLinkActive"}`}
                   onClick={() => router.push("/cleats/indoor")}
                 >
-                  <h2 className="flex-1 text-right md:text-left">Indoor</h2>
+                  <h2 className="menuItemTitle">Indoor</h2>
                 </a>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <a
-                  className={`flex items-center text-gray-500 px-4 py-2 cursor-pointer ${
-                    active && "bg-white hover:text-black"
-                  }`}
+                  className={`menuItemLink ${active && "menuItemLinkActive"}`}
                   onClick={() => router.push("/cleats")}
                 >
-                  <h2 className="flex-1 text-right md:text-left">All</h2>
+                  <h2 className="menuItemTitle">All</h2>
                 </a>
               )}
             </Menu.Item>

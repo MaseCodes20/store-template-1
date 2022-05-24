@@ -36,6 +36,21 @@
   .aboutPageTeamMemberName {
     @apply font-semibold my-2;
   }
+  .itemsMenuContainer {
+    @apply absolute flex justify-center left-0 right-0 shadow-md bg-white divide-y divide-gray-100 focus:outline-none;
+  }
+  .menuTitle {
+    @apply flex justify-end items-center text-black mx-3 my-2;
+  }
+  .menuItemLink {
+    @apply flex items-center text-gray-500 px-4 py-2 cursor-pointer;
+  }
+  .menuItemLinkActive {
+    @apply bg-white hover:text-black;
+  }
+  .menuItemTitle {
+    @apply flex-1 text-right md:text-left;
+  }
 }
 
 ::-webkit-scrollbar {
