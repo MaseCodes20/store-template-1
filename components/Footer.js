@@ -6,8 +6,8 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-gray-50 mt-40">
-      <div className="flex justify-between max-w-[1200px] mx-auto py-14">
+    <footer className="bg-gray-50 mt-40 max-w-[1200px] mx-auto py-14">
+      <div className="md:flex justify-between ">
         <div>
           <div className="flex">
             <div className="text-left text-[12px] mr-6">
@@ -46,43 +46,9 @@ function Footer() {
               </div>
             </div>
           </div>
-
-          {/* Copyrights */}
-          <div className="text-left w-[440px] text-[12px] mt-20">
-            <p>©2022 Soccer Store All Rights Reserved</p>
-            <p>
-              <span className="underline cursor-pointer mr-2">
-                Privacy Center
-              </span>{" "}
-              |{" "}
-              <span className="underline cursor-pointer mx-2">
-                Privacy & Cookie Policy
-              </span>{" "}
-              |{" "}
-              <span className="underline cursor-pointer mx-2">
-                Do Not Sell My Personal Information
-              </span>{" "}
-              |{" "}
-              <span className="underline cursor-pointer mx-2">
-                Terms & Conditions
-              </span>{" "}
-              |{" "}
-              <span className="underline cursor-pointer mx-2">
-                Copyright Notice
-              </span>{" "}
-              |{" "}
-              <span className="underline cursor-pointer mx-2">
-                Accessibility
-              </span>{" "}
-              | <span className="underline cursor-pointer mr-2">Imprint</span> |{" "}
-              <span className="underline cursor-pointer mx-2">
-                United States
-              </span>
-            </p>
-          </div>
         </div>
 
-        <div className="w-[540px]">
+        <div className="max-w-[540px] mt-5 md:mt-0">
           <div className="flex justify-between">
             <div className="text-left">
               {/* Find Us */}
@@ -258,6 +224,32 @@ function Footer() {
             </div>
           </div>
         </div>
+      </div>
+      {/* Copyrights */}
+      <div className="text-left max-w-[440px] text-[12px]  mt-5 md:mt-0">
+        <p>©2022 Soccer Store All Rights Reserved</p>
+        <p>
+          <span className="underline cursor-pointer mr-2">Privacy Center</span>{" "}
+          |{" "}
+          <span className="underline cursor-pointer mx-2">
+            Privacy & Cookie Policy
+          </span>{" "}
+          |{" "}
+          <span className="underline cursor-pointer mx-2">
+            Do Not Sell My Personal Information
+          </span>{" "}
+          |{" "}
+          <span className="underline cursor-pointer mx-2">
+            Terms & Conditions
+          </span>{" "}
+          |{" "}
+          <span className="underline cursor-pointer mx-2">
+            Copyright Notice
+          </span>{" "}
+          | <span className="underline cursor-pointer mx-2">Accessibility</span>{" "}
+          | <span className="underline cursor-pointer mr-2">Imprint</span> |{" "}
+          <span className="underline cursor-pointer mx-2">United States</span>
+        </p>
       </div>
     </footer>
   );
