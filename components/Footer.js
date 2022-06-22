@@ -6,7 +6,7 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-gray-50 mt-40 max-w-[1200px] mx-auto py-14">
+    <footer className="mt-40 max-w-[1200px] mx-auto py-14">
       <div className="md:flex justify-between ">
         <div>
           <div className="flex">

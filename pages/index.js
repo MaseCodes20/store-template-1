@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
+import DiscountBanner from "../components/DiscountBanner";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SaleBar from "../components/SaleBar";
@@ -23,6 +24,8 @@ export default function Home() {
           className="mx-auto"
         />
       </div>
+
+      <DiscountBanner />
 
       <div className="md:h-screen lg:flex justify-between items-center px-10 bg-slate-500/10">
         <div className="pt-10 md:pt-0">
