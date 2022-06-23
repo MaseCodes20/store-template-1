@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
+import Campaigns from "../components/Campaigns";
 import DiscountBanner from "../components/DiscountBanner";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -91,6 +92,8 @@ export default function Home() {
           </button>
         </div>
       </div>
+
+      <Campaigns />
 
       <div className="relative">
         <div className="centered">
