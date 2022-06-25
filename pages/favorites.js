@@ -27,18 +27,12 @@ function Favorites() {
           })}
         </div>
       ) : (
-        <div className="centered font-semibold">
+        <div className="flex justify-center items-center h-[500px]">
           <p>No item added to favorites.</p>
         </div>
       )}
 
-      {favorites.length >= 5 ? (
-        <Footer />
-      ) : (
-        <div className="text-5xl md:absolute bottom-0 right-0 left-0">
-          <Footer />
-        </div>
-      )}
+      <Footer />
     </div>
   );
 }
