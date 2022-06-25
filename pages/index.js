@@ -95,6 +95,24 @@ export default function Home() {
 
       <Campaigns />
 
+      <div className="relative w-full my-16">
+        <div className="absolute bottom-0 left-0 ml-10 mb-10">
+          <p className="font-bold uppercase text-5xl text-white">Nike Soccer</p>
+          <p className="text-white my-5">
+            Everything you need to own the pitch
+          </p>
+
+          <button className="rounded-full bg-white text-black py-2 px-5">
+            Shop
+          </button>
+        </div>
+        <img
+          src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/6a0f00e5-edce-49d9-8426-13df0b263426/nike-soccer.jpg"
+          alt="Sophia's first touch"
+          className="mx-auto"
+        />
+      </div>
+
       <div className="relative">
         <div className="centered">
           <h1 className="text-white font-bold text-5xl border-2 shadow-md text-center">
