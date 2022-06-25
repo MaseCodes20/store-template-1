@@ -208,7 +208,7 @@ function Footer() {
                 className="h-5 mr-2"
               />
               <img
-                src="http://assets.stickpng.com/images/60e7f964711cf700048b6a6a.png"
+                src="https://i0.wp.com/zeevector.com/wp-content/uploads/2021/01/Google-Play-Store-Logo-PNG.png?fit=1024%2C500&ssl=1"
                 alt="Google pay"
                 className="h-5 mr-2"
               />
