@@ -16,7 +16,7 @@ function Product({ product }) {
       <img
         src={imageURLS[0]}
         alt={name}
-        className="hit-full w-full rounded-t-md cursor-pointer"
+        className="h-full w-full rounded-t-md cursor-pointer"
         onClick={() => dispatch(openProductDetails(product))}
       />
       <div className="absolute top-0 right-0 mt-3 mr-3">

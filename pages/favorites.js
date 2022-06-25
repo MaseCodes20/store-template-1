@@ -27,7 +27,7 @@ function Favorites() {
           })}
         </div>
       ) : (
-        <div className="flex justify-center items-center h-[500px]">
+        <div className="flex justify-center items-center min-h-[500px]">
           <p>No item added to favorites.</p>
         </div>
       )}
